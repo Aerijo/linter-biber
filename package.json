@@ -15,5 +15,12 @@
   "dependencies": {
     "tree-sitter-biber": "latest",
     "tree-sitter": "latest"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
   }
 }
