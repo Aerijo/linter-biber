@@ -1,0 +1,19 @@
+{
+  "name": "linter-biber",
+  "version": "0.0.0",
+  "description": "Bibliography linter for biber engine",
+  "main": "lib/main.js",
+  "repository": "https://github.com/Aerijo/linter-biber",
+  "bugs": "https://github.com/Aerijo/linter-biber/issues",
+  "keywords": [
+    "linter",
+    "biber",
+    "latex"
+  ],
+  "author": "Benjamin Gray",
+  "license": "MIT",
+  "dependencies": {
+    "tree-sitter-biber": "latest",
+    "tree-sitter": "latest"
+  }
+}
