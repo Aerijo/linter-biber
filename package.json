@@ -16,10 +16,10 @@
     "tree-sitter-biber": "latest",
     "tree-sitter": "latest"
   },
-  "providedServices": {
-    "linter": {
+  "consumedServices": {
+    "linter-indie": {
       "versions": {
-        "2.0.0": "provideLinter"
+        "2.0.0": "consumeIndie"
       }
     }
   }
