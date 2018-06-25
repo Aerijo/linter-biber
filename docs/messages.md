@@ -1,6 +1,7 @@
 ## Planned Info:
 - Unrecognised entry type
 - Field alias in use
+- Year is deprecated by Date, which is better for metadata stuff and more general
 
 ## Planned Warnings
 - Junk (disabled by default though)
