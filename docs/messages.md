@@ -24,3 +24,7 @@
 
 ## Planned behaviour
 - Also parse the log (`blg`) file for warnings and errors that I missed. Maybe notify user if they want to raise an issue to add support for it?
+
+- Either dynamically scrape possible entries and fields from users installation, or do it myself and add them. That should help reduce false "unrecognised field" warnings.
+
+- Lint style as well
