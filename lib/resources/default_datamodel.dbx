@@ -1,0 +1,1163 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Data model specification
+
+\DeclareDatamodelConstant[type=list]{gender}{sf,sm,sn,pf,pm,pn,pp}
+\DeclareDatamodelConstant[type=list]{nameparts}{family,given,prefix,suffix}
+\DeclareDatamodelConstant[type=list]{optiondatatypes}{boolean,integer,string,xml}
+
+\DeclareDatamodelEntrytypes{
+  article,
+  artwork,
+  audio,
+  bibnote,
+  book,
+  bookinbook,
+  booklet,
+  collection,
+  commentary,
+  customa,
+  customb,
+  customc,
+  customd,
+  custome,
+  customf,
+  inbook,
+  incollection,
+  inproceedings,
+  inreference,
+  image,
+  jurisdiction,
+  legal,
+  legislation,
+  letter,
+  manual,
+  misc,
+  movie,
+  music,
+  mvcollection,
+  mvreference,
+  mvproceedings,
+  mvbook,
+  online,
+  patent,
+  performance,
+  periodical,
+  proceedings,
+  reference,
+  report,
+  review,
+  set,
+  software,
+  standard,
+  suppbook,
+  suppcollection,
+  suppperiodical,
+  thesis,
+  unpublished,
+  video}
+
+\DeclareDatamodelEntrytypes[skipout]{xdata}
+
+\DeclareDatamodelFields[type=field, datatype=integer]{
+  number,
+  volume,
+  volumes}
+
+\DeclareDatamodelFields[type=field, datatype=literal]{
+  abstract,
+  addendum,
+  annotation,
+  booksubtitle,
+  booktitle,
+  booktitleaddon,
+  chapter,
+  edition,
+  eid,
+  entrysubtype,
+  eprintclass,
+  eprinttype,
+  eventtitle,
+  eventtitleaddon,
+  gender,
+  howpublished,
+  indexsorttitle,
+  indextitle,
+  isan,
+  isbn,
+  ismn,
+  isrn,
+  issn,
+  issue,
+  issuesubtitle,
+  issuetitle,
+  iswc,
+  journalsubtitle,
+  journaltitle,
+  label,
+  langid,
+  langidopts,
+  library,
+  mainsubtitle,
+  maintitle,
+  maintitleaddon,
+  nameaddon,
+  note,
+  origtitle,
+  pagetotal,
+  part,
+  relatedstring,
+  relatedtype,
+  reprinttitle,
+  series,
+  shorthandintro,
+  subtitle,
+  title,
+  titleaddon,
+  usera,
+  userb,
+  userc,
+  userd,
+  usere,
+  userf,
+  venue,
+  version}
+
+\DeclareDatamodelFields[type=field, datatype=literal, label=true]{
+  shorthand,
+  shortjournal,
+  shortseries,
+  shorttitle}
+
+\DeclareDatamodelFields[type=field, datatype=literal, skipout]{
+  sortyear,
+  sorttitle,
+  sortshorthand,
+  sortkey,
+  presort}
+
+\DeclareDatamodelFields[type=list, datatype=literal]{
+  institution,
+  lista,
+  listb,
+  listc,
+  listd,
+  liste,
+  listf,
+  location,
+  organization,
+  origlocation,
+  origpublisher,
+  publisher}
+
+\DeclareDatamodelFields[type=list, datatype=name]{
+  afterword,
+  annotator,
+  author,
+  bookauthor,
+  commentator,
+  editor,
+  editora,
+  editorb,
+  editorc,
+  foreword,
+  holder,
+  introduction,
+  namea,
+  nameb,
+  namec,
+  translator}
+
+\DeclareDatamodelFields[type=list, datatype=name, label=true]{
+  shortauthor,
+  shorteditor}
+
+\DeclareDatamodelFields[type=list, datatype=name, skipout]{sortname}
+
+\DeclareDatamodelFields[type=field, datatype=key]{
+  authortype,
+  editoratype,
+  editorbtype,
+  editorctype,
+  editortype,
+  bookpagination,
+  nameatype,
+  namebtype,
+  namectype,
+  pagination,
+  pubstate,
+  type}
+
+\DeclareDatamodelFields[type=list, datatype=key]{language,origlanguage}
+
+\DeclareDatamodelFields[type=field, datatype=entrykey]{
+  crossref,
+  xref}
+
+\DeclareDatamodelFields[type=field, datatype=date, skipout]{
+  date,
+  eventdate,
+  origdate,
+  urldate}
+
+\DeclareDatamodelFields[type=field, datatype=verbatim]{
+  doi,
+  eprint,
+  file,
+  verba,
+  verbb,
+  verbc}
+
+\DeclareDatamodelFields[type=field, datatype=uri]{url}
+
+\DeclareDatamodelFields[type=field, format=xsv, datatype=entrykey, skipout]{xdata, ids, entryset}
+\DeclareDatamodelFields[type=field, format=xsv, datatype=entrykey]{related}
+
+\DeclareDatamodelFields[type=field, format=xsv, datatype=keyword]{keywords}
+
+\DeclareDatamodelFields[type=field, format=xsv, datatype=option, skipout]{options, relatedoptions}
+\DeclareDatamodelFields[type=field, datatype=range]{pages}
+
+\DeclareDatamodelFields[type=field, datatype=code]{execute}
+
+\DeclareDatamodelEntryfields{
+  abstract,
+  annotation,
+  authortype,
+  bookpagination,
+  crossref,
+  day,
+  endday,
+  endhour,
+  endminute,
+  endmonth,
+  endseason,
+  endsecond,
+  endtimezone,
+  endyear,
+  entryset,
+  entrysubtype,
+  execute,
+  file,
+  gender,
+  hour,
+  ids,
+  indextitle,
+  indexsorttitle,
+  isan,
+  ismn,
+  iswc,
+  keywords,
+  label,
+  langid,
+  langidopts,
+  library,
+  lista,
+  listb,
+  listc,
+  listd,
+  liste,
+  listf,
+  minute,
+  month,
+  nameaddon,
+  options,
+  origday,
+  origendday,
+  origendhour,
+  origendminute,
+  origendmonth,
+  origendseason,
+  origendsecond,
+  origendtimezone,
+  origendyear,
+  orighour,
+  origminute,
+  origmonth,
+  origseason,
+  origsecond,
+  origtimezone,
+  origyear,
+  origlocation,
+  origpublisher,
+  origtitle,
+  pagination,
+  presort,
+  related,
+  relatedoptions,
+  relatedstring,
+  relatedtype,
+  season,
+  second,
+  shortauthor,
+  shorteditor,
+  shorthand,
+  shorthandintro,
+  shortjournal,
+  shortseries,
+  shorttitle,
+  sortkey,
+  sortname,
+  sortshorthand,
+  sorttitle,
+  sortyear,
+  timezone,
+  url,
+  urlday,
+  urlendday,
+  urlendhour,
+  urlendminute,
+  urlendmonth,
+  urlendsecond,
+  urlendtimezone,
+  urlendyear,
+  urlhour,
+  urlminute,
+  urlmonth,
+  urlsecond,
+  urltimezone,
+  urlyear,
+  usera,
+  userb,
+  userc,
+  userd,
+  usere,
+  userf,
+  verba,
+  verbb,
+  verbc,
+  xdata,
+  xref,
+  year}
+
+\DeclareDatamodelEntryfields[set]{
+  entryset,
+  crossref}
+
+\DeclareDatamodelEntryfields[article]{
+  addendum,
+  annotator,
+  author,
+  commentator,
+  doi,
+  editor,
+  editora,
+  editorb,
+  editorc,
+  editortype,
+  editoratype,
+  editorbtype,
+  editorctype,
+  eid,
+  eprint,
+  eprintclass,
+  eprinttype,
+  issn,
+  issue,
+  issuetitle,
+  issuesubtitle,
+  journalsubtitle,
+  journaltitle,
+  language,
+  note,
+  number,
+  origlanguage,
+  pages,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  translator,
+  version,
+  volume}
+
+\DeclareDatamodelEntryfields[bibnote]{note}
+
+\DeclareDatamodelEntryfields[book]{
+  author,
+  addendum,
+  afterword,
+  annotator,
+  chapter,
+  commentator,
+  doi,
+  edition,
+  editor,
+  editora,
+  editorb,
+  editorc,
+  editortype,
+  editoratype,
+  editorbtype,
+  editorctype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  foreword,
+  introduction,
+  isbn,
+  language,
+  location,
+  maintitle,
+  maintitleaddon,
+  mainsubtitle,
+  note,
+  number,
+  origlanguage,
+  pages,
+  pagetotal,
+  part,
+  publisher,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  translator,
+  volume,
+  volumes}
+
+\DeclareDatamodelEntryfields[mvbook]{
+  addendum,
+  afterword,
+  annotator,
+  author,
+  commentator,
+  doi,
+  edition,
+  editor,
+  editora,
+  editorb,
+  editorc,
+  editortype,
+  editoratype,
+  editorbtype,
+  editorctype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  foreword,
+  introduction,
+  isbn,
+  language,
+  location,
+  note,
+  number,
+  origlanguage,
+  pagetotal,
+  publisher,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  translator,
+  volume,
+  volumes}
+
+\DeclareDatamodelEntryfields[inbook,bookinbook,suppbook]{
+  addendum,
+  afterword,
+  annotator,
+  author,
+  booktitle,
+  bookauthor,
+  booksubtitle,
+  booktitleaddon,
+  chapter,
+  commentator,
+  doi,
+  edition,
+  editor,
+  editora,
+  editorb,
+  editorc,
+  editortype,
+  editoratype,
+  editorbtype,
+  editorctype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  foreword,
+  introduction,
+  isbn,
+  language,
+  location,
+  mainsubtitle,
+  maintitle,
+  maintitleaddon,
+  note,
+  number,
+  origlanguage,
+  part,
+  publisher,
+  pages,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  translator,
+  volume,
+  volumes}
+
+\DeclareDatamodelEntryfields[booklet]{
+  addendum,
+  author,
+  chapter,
+  doi,
+  editor,
+  editortype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  howpublished,
+  language,
+  location,
+  note,
+  pages,
+  pagetotal,
+  pubstate,
+  subtitle,
+  title,
+  titleaddon,
+  type}
+
+\DeclareDatamodelEntryfields[collection,reference]{
+  addendum,
+  afterword,
+  annotator,
+  chapter,
+  commentator,
+  doi,
+  edition,
+  editor,
+  editora,
+  editorb,
+  editorc,
+  editortype,
+  editoratype,
+  editorbtype,
+  editorctype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  foreword,
+  introduction,
+  isbn,
+  language,
+  location,
+  mainsubtitle,
+  maintitle,
+  maintitleaddon,
+  note,
+  number,
+  origlanguage,
+  pages,
+  pagetotal,
+  part,
+  publisher,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  translator,
+  volume,
+  volumes}
+
+\DeclareDatamodelEntryfields[mvcollection,mvreference]{
+  addendum,
+  afterword,
+  annotator,
+  author,
+  commentator,
+  doi,
+  edition,
+  editor,
+  editora,
+  editorb,
+  editorc,
+  editortype,
+  editoratype,
+  editorbtype,
+  editorctype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  foreword,
+  introduction,
+  isbn,
+  language,
+  location,
+  note,
+  number,
+  origlanguage,
+  publisher,
+  pubstate,
+  subtitle,
+  title,
+  titleaddon,
+  translator,
+  volume,
+  volumes}
+
+\DeclareDatamodelEntryfields[incollection,suppcollection,inreference]{
+  addendum,
+  afterword,
+  annotator,
+  author,
+  booksubtitle,
+  booktitle,
+  booktitleaddon,
+  chapter,
+  commentator,
+  doi,
+  edition,
+  editor,
+  editora,
+  editorb,
+  editorc,
+  editortype,
+  editoratype,
+  editorbtype,
+  editorctype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  foreword,
+  introduction,
+  isbn,
+  language,
+  location,
+  mainsubtitle,
+  maintitle,
+  maintitleaddon,
+  note,
+  number,
+  origlanguage,
+  pages,
+  part,
+  publisher,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  translator,
+  volume,
+  volumes}
+
+\DeclareDatamodelEntryfields[manual]{
+  addendum,
+  author,
+  chapter,
+  doi,
+  edition,
+  editor,
+  editortype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  isbn,
+  language,
+  location,
+  note,
+  number,
+  organization,
+  pages,
+  pagetotal,
+  publisher,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  type,
+  version}
+
+\DeclareDatamodelEntryfields[misc]{
+  addendum,
+  author,
+  doi,
+  editor,
+  editortype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  howpublished,
+  language,
+  location,
+  note,
+  organization,
+  pubstate,
+  subtitle,
+  title,
+  titleaddon,
+  type,
+  version}
+
+\DeclareDatamodelEntryfields[online]{
+  addendum,
+  author,
+  editor,
+  editortype,
+  language,
+  note,
+  organization,
+  pubstate,
+  subtitle,
+  title,
+  titleaddon,
+  version}
+
+\DeclareDatamodelEntryfields[patent]{
+  addendum,
+  author,
+  doi,
+  eprint,
+  eprintclass,
+  eprinttype,
+  holder,
+  location,
+  note,
+  number,
+  pubstate,
+  subtitle,
+  title,
+  titleaddon,
+  type,
+  version}
+
+\DeclareDatamodelEntryfields[periodical]{
+  addendum,
+  doi,
+  editor,
+  editora,
+  editorb,
+  editorc,
+  editortype,
+  editoratype,
+  editorbtype,
+  editorctype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  issn,
+  issue,
+  issuesubtitle,
+  issuetitle,
+  language,
+  note,
+  number,
+  pubstate,
+  season,
+  series,
+  subtitle,
+  title,
+  volume}
+
+\DeclareDatamodelEntryfields[mvproceedings]{
+  addendum,
+  doi,
+  editor,
+  editortype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  eventday,
+  eventendday,
+  eventendhour,
+  eventendminute,
+  eventendmonth,
+  eventendseason,
+  eventendsecond,
+  eventendtimezone,
+  eventendyear,
+  eventhour,
+  eventminute,
+  eventmonth,
+  eventseason,
+  eventsecond,
+  eventtimezone,
+  eventyear,
+  eventtitle,
+  eventtitleaddon,
+  isbn,
+  language,
+  location,
+  note,
+  number,
+  organization,
+  pagetotal,
+  publisher,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  venue,
+  volumes}
+
+\DeclareDatamodelEntryfields[proceedings]{
+  addendum,
+  chapter,
+  doi,
+  editor,
+  editortype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  eventday,
+  eventendday,
+  eventendhour,
+  eventendminute,
+  eventendmonth,
+  eventendseason,
+  eventendsecond,
+  eventendtimezone,
+  eventendyear,
+  eventhour,
+  eventminute,
+  eventmonth,
+  eventseason,
+  eventsecond,
+  eventtimezone,
+  eventyear,
+  eventtitle,
+  eventtitleaddon,
+  isbn,
+  language,
+  location,
+  mainsubtitle,
+  maintitle,
+  maintitleaddon,
+  note,
+  number,
+  organization,
+  pages,
+  pagetotal,
+  part,
+  publisher,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  venue,
+  volume,
+  volumes}
+
+\DeclareDatamodelEntryfields[inproceedings]{
+  addendum,
+  author,
+  booksubtitle,
+  booktitle,
+  booktitleaddon,
+  chapter,
+  doi,
+  editor,
+  editortype,
+  eprint,
+  eprintclass,
+  eprinttype,
+  eventday,
+  eventendday,
+  eventendhour,
+  eventendminute,
+  eventendmonth,
+  eventendseason,
+  eventendsecond,
+  eventendtimezone,
+  eventendyear,
+  eventhour,
+  eventminute,
+  eventmonth,
+  eventseason,
+  eventsecond,
+  eventtimezone,
+  eventyear,
+  eventtitle,
+  eventtitleaddon,
+  isbn,
+  language,
+  location,
+  mainsubtitle,
+  maintitle,
+  maintitleaddon,
+  note,
+  number,
+  organization,
+  pages,
+  part,
+  publisher,
+  pubstate,
+  series,
+  subtitle,
+  title,
+  titleaddon,
+  venue,
+  volume,
+  volumes}
+
+\DeclareDatamodelEntryfields[report]{
+  addendum,
+  author,
+  chapter,
+  doi,
+  eprint,
+  eprintclass,
+  eprinttype,
+  institution,
+  isrn,
+  language,
+  location,
+  note,
+  number,
+  pages,
+  pagetotal,
+  pubstate,
+  subtitle,
+  title,
+  titleaddon,
+  type,
+  version}
+
+\DeclareDatamodelEntryfields[thesis]{
+  addendum,
+  author,
+  chapter,
+  doi,
+  eprint,
+  eprintclass,
+  eprinttype,
+  institution,
+  language,
+  location,
+  note,
+  pages,
+  pagetotal,
+  pubstate,
+  subtitle,
+  title,
+  titleaddon,
+  type}
+
+\DeclareDatamodelEntryfields[unpublished]{
+  addendum,
+  author,
+  eventday,
+  eventendday,
+  eventendhour,
+  eventendminute,
+  eventendmonth,
+  eventendseason,
+  eventendsecond,
+  eventendtimezone,
+  eventendyear,
+  eventhour,
+  eventminute,
+  eventmonth,
+  eventseason,
+  eventsecond,
+  eventtimezone,
+  eventyear,
+  eventtitle,
+  eventtitleaddon,
+  howpublished,
+  language,
+  location,
+  note,
+  pubstate,
+  subtitle,
+  title,
+  titleaddon,
+  type,
+  venue}
+
+\DeclareDatamodelConstraints[
+  article,
+  book,
+  inbook,
+  bookinbook,
+  suppbook,
+  booklet,
+  collection,
+  incollection,
+  suppcollection,
+  manual,
+  misc,
+  mvbook,
+  mvcollection,
+  online,
+  patent,
+  periodical,
+  suppperiodical,
+  proceedings,
+  inproceedings,
+  reference,
+  inreference,
+  report,
+  set,
+  thesis,
+  unpublished]{
+    \constraint[type=mandatory]{
+      \constraintfieldsxor{
+        \constraintfield{date}
+        \constraintfield{year}
+      }
+    }
+  }
+
+\DeclareDatamodelConstraints[set]{
+  \constraint[type=mandatory]{
+    \constraintfield{entryset}
+    \constraintfield{crossref}
+  }
+}
+
+\DeclareDatamodelConstraints[article]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{journaltitle}
+    \constraintfield{title}
+  }
+}
+
+\DeclareDatamodelConstraints[book,mvbook,mvcollection,mvreference]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{title}
+  }
+}
+
+\DeclareDatamodelConstraints[inbook,bookinbook,suppbook]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{title}
+    \constraintfield{booktitle}
+  }
+}
+
+\DeclareDatamodelConstraints[booklet]{
+  \constraint[type=mandatory]{
+    \constraintfieldsor{
+      \constraintfield{author}
+      \constraintfield{editor}
+    }
+    \constraintfield{title}
+  }
+}
+
+\DeclareDatamodelConstraints[collection,reference]{
+  \constraint[type=mandatory]{
+    \constraintfield{editor}
+    \constraintfield{title}
+  }
+}
+
+\DeclareDatamodelConstraints[incollection,suppcollection,inreference]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{editor}
+    \constraintfield{title}
+    \constraintfield{booktitle}
+  }
+}
+
+\DeclareDatamodelConstraints[manual]{
+  \constraint[type=mandatory]{
+    \constraintfield{title}
+  }
+}
+
+\DeclareDatamodelConstraints[misc]{
+  \constraint[type=mandatory]{
+    \constraintfield{title}
+  }
+}
+
+\DeclareDatamodelConstraints[online]{
+  \constraint[type=mandatory]{
+    \constraintfield{title}
+    \constraintfield{url}
+  }
+}
+
+\DeclareDatamodelConstraints[patent]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{title}
+    \constraintfield{number}
+  }
+}
+
+\DeclareDatamodelConstraints[periodical]{
+  \constraint[type=mandatory]{
+    \constraintfield{editor}
+    \constraintfield{title}
+  }
+}
+
+\DeclareDatamodelConstraints[proceedings,mvproceedings]{
+  \constraint[type=mandatory]{
+    \constraintfield{editor}
+    \constraintfield{title}
+  }
+}
+
+\DeclareDatamodelConstraints[inproceedings]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{title}
+    \constraintfield{booktitle}
+  }
+}
+
+\DeclareDatamodelConstraints[report]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{title}
+    \constraintfield{type}
+    \constraintfield{institution}
+  }
+}
+
+\DeclareDatamodelConstraints[thesis]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{title}
+    \constraintfield{type}
+    \constraintfield{institution}
+  }
+}
+
+\DeclareDatamodelConstraints[unpublished]{
+  \constraint[type=mandatory]{
+    \constraintfield{author}
+    \constraintfield{title}
+  }
+}
+
+\DeclareDatamodelConstraints{
+  \constraint[type=data, datatype=isbn]{
+    \constraintfield{isbn}
+  }
+  \constraint[type=data, datatype=issn]{
+    \constraintfield{issn}
+  }
+  \constraint[type=data, datatype=ismn]{
+    \constraintfield{ismn}
+  }
+  \constraint[type=data, datatype=date]{
+    \constraintfield{date}
+    \constraintfield{eventdate}
+    \constraintfield{origdate}
+    \constraintfield{urldate}
+  }
+  \constraint[type=data, datatype=pattern, pattern=\regexp{(?:sf|sm|sn|pf|pm|pn|pp)}]{
+    \constraintfield{gender}
+  }
+}
