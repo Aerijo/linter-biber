@@ -40,7 +40,7 @@
     },
     "maxNumberOfLines": {
       "type": "integer",
-      "default": 30000,
+      "default": 10000,
       "description": "Use this to customise roughly how many lines will be linted before giving up. Restart required to apply changes"
     }
   },

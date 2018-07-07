@@ -51,7 +51,1211 @@
     "video",
     "xdata"
   ],
-  "entryConstraints": {},
+  "entryConstraints": {
+    "article": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "journaltitle"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "book": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "inbook": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "booktitle"
+          }
+        ]
+      }
+    ],
+    "bookinbook": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "booktitle"
+          }
+        ]
+      }
+    ],
+    "suppbook": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "booktitle"
+          }
+        ]
+      }
+    ],
+    "booklet": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "author"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "editor"
+              }
+            ]
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "collection": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "editor"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "incollection": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "editor"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "booktitle"
+          }
+        ]
+      }
+    ],
+    "suppcollection": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "editor"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "booktitle"
+          }
+        ]
+      }
+    ],
+    "manual": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "misc": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "mvbook": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "mvcollection": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "online": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "url"
+          }
+        ]
+      }
+    ],
+    "patent": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "number"
+          }
+        ]
+      }
+    ],
+    "periodical": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "editor"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "suppperiodical": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "proceedings": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "editor"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "inproceedings": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "booktitle"
+          }
+        ]
+      }
+    ],
+    "reference": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "editor"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "inreference": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "editor"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "booktitle"
+          }
+        ]
+      }
+    ],
+    "report": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "type"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "institution"
+          }
+        ]
+      }
+    ],
+    "set": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "entryset"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "crossref"
+          }
+        ]
+      }
+    ],
+    "thesis": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "type"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "institution"
+          }
+        ]
+      }
+    ],
+    "unpublished": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfieldsxor",
+            "options": null,
+            "body": [
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "date"
+              },
+              {
+                "name": "constraintfield",
+                "options": null,
+                "body": "year"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "mvreference": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "author"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ],
+    "mvproceedings": [
+      {
+        "name": "constraint",
+        "options": {
+          "type": "mandatory"
+        },
+        "body": [
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "editor"
+          },
+          {
+            "name": "constraintfield",
+            "options": null,
+            "body": "title"
+          }
+        ]
+      }
+    ]
+  },
   "entryFields": {
     "set": [
       "entryset",
@@ -1136,6 +2340,22 @@
     "xdata",
     "xref",
     "year"
+  ],
+  "universalConstraints": [
+    {
+      "name": "constraint",
+      "options": {
+        "type": "data",
+        "datatype": "isbn"
+      },
+      "body": [
+        {
+          "name": "constraintfield",
+          "options": null,
+          "body": "isbn"
+        }
+      ]
+    }
   ],
   "fieldTypes": {
     "number": {
