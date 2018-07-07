@@ -1,0 +1,58 @@
+{
+  "constants": [],
+  "entries": [
+    {
+      "names": [
+        "gitcommit"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "names": [
+        "title"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "commithash"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "gitcommit": [
+      "title",
+      "author",
+      "date",
+      "commithash"
+    ]
+  },
+  "universalFields": [],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "gitlog",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/gitlog/gitlog.dbx"
+}

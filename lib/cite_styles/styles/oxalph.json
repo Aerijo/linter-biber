@@ -1,0 +1,211 @@
+{
+  "constants": [
+    {
+      "type": "list",
+      "name": "nameparts",
+      "value": [
+        "prefix",
+        "family",
+        "suffix",
+        "given",
+        "title"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "names": [
+        "manuscript"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "names": [
+        "datetype",
+        "origdatetype"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "authoraddon",
+        "editoraddon",
+        "serieseditor"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "jointauthor"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "jointauthortype"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "rawauthor"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "shortlabeltitle"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "catalog",
+        "dating",
+        "shortlibrary",
+        "columns",
+        "collection",
+        "shortcollection",
+        "usualtitle",
+        "shelfmark",
+        "sortshelfmark",
+        "support",
+        "columns",
+        "layer"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "scribe",
+        "owner"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "origin"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "pardate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "manuscript": [
+      "catalog",
+      "dating",
+      "shortlibrary",
+      "shortcollection",
+      "columns",
+      "languages",
+      "collection",
+      "usualtitle",
+      "shelfmark",
+      "sortshelfmark",
+      "support",
+      "origin",
+      "scribe",
+      "owner"
+    ],
+    "jurisdiction": [
+      "pardate"
+    ]
+  },
+  "universalFields": [
+    "datetype",
+    "origdatetype",
+    "authoraddon",
+    "editoraddon",
+    "serieseditor",
+    "jointauthor",
+    "jointauthortype",
+    "rawauthor"
+  ],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "oxalph",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-oxref/oxalph.dbx"
+}

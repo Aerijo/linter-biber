@@ -1,0 +1,171 @@
+{
+  "constants": [],
+  "entries": [
+    {
+      "names": [
+        "talk"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "names": [
+        "ineditor",
+        "intranslator",
+        "inannotator",
+        "incommentator",
+        "inintroduction",
+        "inforeword",
+        "inafterword"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "zenon"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "arachne"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "urn"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "jstor"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "eventdatelanguage"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "inbook": [
+      "ineditor",
+      "intranslator",
+      "inannotator",
+      "incommentator",
+      "inintroduction",
+      "inforeword",
+      "inafterword"
+    ],
+    "incollection": [
+      "ineditor",
+      "intranslator",
+      "inannotator",
+      "incommentator",
+      "inintroduction",
+      "inforeword",
+      "inafterword"
+    ],
+    "inproceedings": [
+      "ineditor",
+      "intranslator",
+      "inannotator",
+      "incommentator",
+      "inintroduction",
+      "inforeword",
+      "inafterword",
+      "eventdatelanguage"
+    ],
+    "inreference": [
+      "ineditor",
+      "intranslator",
+      "inannotator",
+      "incommentator",
+      "inintroduction",
+      "inforeword",
+      "inafterword"
+    ],
+    "talk": [
+      "author",
+      "title",
+      "subtitle",
+      "titleaddon",
+      "date",
+      "labeldate",
+      "year",
+      "venue",
+      "institution",
+      "eventtitle",
+      "eventdate",
+      "url",
+      "urldate",
+      "note"
+    ],
+    "proceedings": [
+      "eventdatelanguage"
+    ]
+  },
+  "universalFields": [
+    "zenon",
+    "arachne",
+    "urn",
+    "jstor"
+  ],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "archaeologie",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/archaeologie/archaeologie.dbx"
+}

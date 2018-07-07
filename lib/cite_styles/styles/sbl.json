@@ -1,0 +1,331 @@
+{
+  "constants": [],
+  "entries": {
+    "ancienttext": {
+      "skipout": false
+    },
+    "conferencepaper": {
+      "skipout": false
+    },
+    "incommentary": {
+      "skipout": false
+    },
+    "inlexicon": {
+      "skipout": false
+    },
+    "review": {
+      "skipout": false
+    },
+    "seminarpaper": {
+      "skipout": false
+    }
+  },
+  "fields": {
+    "seriesseries": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "revdtitle": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "revdshorttitle": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "revdsubtitle": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "revdtitleaddon": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "shortbooktitle": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "shortissuetitle": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "shortmaintitle": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withauthortype": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "witheditortype": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withtranslatortype": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withbookauthortype": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withbookeditortype": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withbooktranslatortype": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withmainauthortype": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withmaineditortype": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withmaintranslatortype": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "bookeditor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "booktranslator": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "mainauthor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "maineditor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "maintranslator": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "revdauthor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "revdeditor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withauthor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "witheditor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withtranslator": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withbookauthor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withbookeditor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withbooktranslator": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withmainauthor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withmaineditor": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "withmaintranslator": {
+      "type": "list",
+      "format": null,
+      "datatype": "name",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "eprintdate": {
+      "type": "field",
+      "format": null,
+      "datatype": "date",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "eprintday": {
+      "type": "field",
+      "format": null,
+      "datatype": "datepart",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "eprintmonth": {
+      "type": "field",
+      "format": null,
+      "datatype": "datepart",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "eprintyear": {
+      "type": "field",
+      "format": null,
+      "datatype": "datepart",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    }
+  },
+  "entryFields": {},
+  "universalFields": [],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "sbl",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-sbl/sbl.dbx"
+}

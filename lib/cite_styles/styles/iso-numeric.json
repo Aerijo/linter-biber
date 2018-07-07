@@ -1,0 +1,49 @@
+{
+  "constants": [],
+  "entries": [],
+  "fields": [
+    {
+      "names": [
+        "supervisor"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "classification"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "thesis": [
+      "supervisor"
+    ],
+    "patent": [
+      "classification"
+    ]
+  },
+  "universalFields": [],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "iso-numeric",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-iso690/iso-numeric.dbx"
+}

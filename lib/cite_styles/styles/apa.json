@@ -1,0 +1,158 @@
+{
+  "constants": [],
+  "entries": [
+    {
+      "names": [
+        "letters",
+        "data",
+        "newsarticle"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "names": [
+        "with",
+        "writer",
+        "producer",
+        "execproducer",
+        "director"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "abstractloc",
+        "titleisdescription",
+        "newspaper",
+        "urldescription"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "abstracturl"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "video": [
+      "writer",
+      "producer",
+      "execproducer",
+      "director"
+    ],
+    "newsarticle": [
+      "author",
+      "newspaper",
+      "title",
+      "day",
+      "endday",
+      "endmonth",
+      "endyear",
+      "month",
+      "year",
+      "addendum",
+      "doi",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eid",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "issn",
+      "issue",
+      "issuetitle",
+      "issuesubtitle",
+      "language",
+      "note",
+      "number",
+      "origlanguage",
+      "pages",
+      "series",
+      "subtitle",
+      "titleaddon",
+      "translator",
+      "url",
+      "urlday",
+      "urlendday",
+      "urlendmonth",
+      "urlendyear",
+      "urlmonth",
+      "urlyear",
+      "volume"
+    ],
+    "data": [
+      "title",
+      "day",
+      "endday",
+      "endmonth",
+      "endyear",
+      "month",
+      "year",
+      "addendum",
+      "author",
+      "language",
+      "location",
+      "note",
+      "organization",
+      "pubstate",
+      "subtitle",
+      "titleaddon",
+      "type",
+      "url",
+      "urlday",
+      "urlendday",
+      "urlendmonth",
+      "urlendyear",
+      "urlmonth",
+      "urlyear",
+      "version"
+    ]
+  },
+  "universalFields": [
+    "titleisdescription",
+    "with",
+    "abstractloc",
+    "abstracturl",
+    "urldescription"
+  ],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "apa",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/apa.dbx"
+}

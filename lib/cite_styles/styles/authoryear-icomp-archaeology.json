@@ -1,0 +1,486 @@
+{
+  "constants": [],
+  "entries": [],
+  "fields": [
+    {
+      "names": [
+        "shortsubseries",
+        "subseries"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "subnumber"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "integer",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "titlenote"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "maintitlenote"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "booktitlenote"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "summarytitle"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "shortform"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "festschrift"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "festschriftaddon"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "eventnumber"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "integer",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "eventtype"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "multieventdate"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "multivenue"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "realdate",
+        "origrealdate",
+        "fulleventdate",
+        "newsdate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "realdate",
+        "origrealdate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "date+an"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "origdate+an"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "book": [
+      "shortsubseries",
+      "subnumber",
+      "subseries"
+    ],
+    "bookinbook": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "booktitlenote",
+      "fulleventdate"
+    ],
+    "inbook": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "booktitlenote",
+      "fulleventdate"
+    ],
+    "collection": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "fulleventdate"
+    ],
+    "incollection": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "booktitlenote",
+      "fulleventdate"
+    ],
+    "inproceedings": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "booktitlenote",
+      "fulleventdate"
+    ],
+    "mvbook": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "fulleventdate"
+    ],
+    "mvcollection": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "fulleventdate"
+    ],
+    "mvproceedings": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "fulleventdate"
+    ],
+    "proceedings": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "fulleventdate"
+    ],
+    "reference": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "fulleventdate"
+    ],
+    "inreference": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "booktitlenote",
+      "fulleventdate"
+    ],
+    "mvreference": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "fulleventdate"
+    ],
+    "suppbook": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "booktitlenote",
+      "fulleventdate"
+    ],
+    "suppcollection": [
+      "shortsubseries",
+      "subnumber",
+      "subseries",
+      "shortform",
+      "festschrift",
+      "festschriftaddon",
+      "eventnumber",
+      "eventtype",
+      "eventdate",
+      "venue",
+      "multieventdate",
+      "multivenue",
+      "booktitlenote",
+      "fulleventdate"
+    ],
+    "article": [
+      "newsdate",
+      "location"
+    ],
+    "periodical": [
+      "newsdate",
+      "location"
+    ],
+    "suppperiodical": [
+      "newsdate",
+      "location"
+    ],
+    "review": [
+      "newsdate",
+      "location"
+    ]
+  },
+  "universalFields": [
+    "summarytitle",
+    "titlenote",
+    "realdate",
+    "origrealdate"
+  ],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "authoryear-icomp-archaeology",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-archaeology/authoryear-icomp-archaeology.dbx"
+}

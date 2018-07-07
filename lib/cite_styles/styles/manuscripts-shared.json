@@ -1,0 +1,93 @@
+{
+  "constants": [],
+  "entries": [
+    {
+      "names": [
+        "manuscript"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "names": [
+        "catalog",
+        "dating",
+        "shortlibrary",
+        "columns",
+        "collection",
+        "shortcollection",
+        "usualtitle",
+        "shelfmark",
+        "sortshelfmark",
+        "support",
+        "columns",
+        "layer"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "scribe",
+        "owner"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "origin"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "manuscript": [
+      "catalog",
+      "dating",
+      "shortlibrary",
+      "shortcollection",
+      "columns",
+      "languages",
+      "collection",
+      "usualtitle",
+      "shelfmark",
+      "sortshelfmark",
+      "support",
+      "origin",
+      "scribe",
+      "owner"
+    ]
+  },
+  "universalFields": [],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "manuscripts-shared",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-manuscripts-philology/manuscripts-shared.dbx"
+}

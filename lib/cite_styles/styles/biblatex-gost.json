@@ -1,0 +1,303 @@
+{
+  "constants": [],
+  "entries": [],
+  "fields": [
+    {
+      "names": [
+        "number",
+        "book",
+        "part",
+        "volume",
+        "issue"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "range",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "books",
+        "parts",
+        "issues",
+        "volsorder",
+        "sortvolume",
+        "systemreq",
+        "publication",
+        "ipc",
+        "requestnumber",
+        "prioritynumber",
+        "prioritycountry",
+        "authorcountry",
+        "science",
+        "specialitycode",
+        "speciality",
+        "heading"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "update",
+        "prioritydate",
+        "publicationdate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "booktranslator",
+        "bookcommentator",
+        "bookannotator",
+        "bookintroduction",
+        "bookforeword",
+        "bookafterword"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "media"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "key",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "bookoriglanguage"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "key",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "bookoriglanguage"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "key",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "specdata",
+        "credits",
+        "bookcredits",
+        "editioncredits"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "article": [
+      "journalcredits",
+      "location",
+      "publisher"
+    ],
+    "periodical": [
+      "journalcredits",
+      "location",
+      "publisher"
+    ],
+    "book": [
+      "sortvolume"
+    ],
+    "collection": [
+      "sortvolume"
+    ],
+    "proceedings": [
+      "sortvolume"
+    ],
+    "reference": [
+      "sortvolume"
+    ],
+    "inbook": [
+      "booktranslator",
+      "bookcommentator",
+      "bookannotator",
+      "bookintroduction",
+      "bookforeword",
+      "bookafterword",
+      "bookoriglanguage",
+      "bookcredits"
+    ],
+    "incollection": [
+      "booktranslator",
+      "bookcommentator",
+      "bookannotator",
+      "bookintroduction",
+      "bookforeword",
+      "bookafterword",
+      "bookoriglanguage",
+      "bookcredits"
+    ],
+    "inproceedings": [
+      "booktranslator",
+      "bookcommentator",
+      "bookannotator",
+      "bookintroduction",
+      "bookforeword",
+      "bookafterword",
+      "bookoriglanguage",
+      "bookcredits"
+    ],
+    "inreference": [
+      "booktranslator",
+      "bookcommentator",
+      "bookannotator",
+      "bookintroduction",
+      "bookforeword",
+      "bookafterword",
+      "bookoriglanguage",
+      "bookcredits"
+    ],
+    "bookinbook": [
+      "booktranslator",
+      "bookcommentator",
+      "bookannotator",
+      "bookintroduction",
+      "bookforeword",
+      "bookafterword",
+      "bookoriglanguage",
+      "bookcredits"
+    ],
+    "suppbook": [
+      "booktranslator",
+      "bookcommentator",
+      "bookannotator",
+      "bookintroduction",
+      "bookforeword",
+      "bookafterword",
+      "bookoriglanguage",
+      "bookcredits"
+    ],
+    "suppcollection": [
+      "booktranslator",
+      "bookcommentator",
+      "bookannotator",
+      "bookintroduction",
+      "bookforeword",
+      "bookafterword",
+      "bookoriglanguage",
+      "bookcredits"
+    ],
+    "thesis": [
+      "science",
+      "specialitycode",
+      "speciality",
+      "number"
+    ],
+    "online": [
+      "update",
+      "systemreq"
+    ],
+    "patent": [
+      "pagetotal",
+      "priorityday",
+      "prioritymonth",
+      "priorityyear",
+      "priorityendday",
+      "priorityendmonth",
+      "priorityendyear",
+      "publicationday",
+      "publicationmonth",
+      "publicationyear",
+      "publicationendday",
+      "publicationendmonth",
+      "publicationendyear",
+      "publication",
+      "requestnumber",
+      "ipc",
+      "prioritynumber",
+      "prioritycountry",
+      "authorcountry"
+    ]
+  },
+  "universalFields": [
+    "number",
+    "book",
+    "part",
+    "issue",
+    "books",
+    "parts",
+    "issues",
+    "language",
+    "media",
+    "credits",
+    "editioncredits",
+    "specdata",
+    "volsorder",
+    "heading"
+  ],
+  "entryConstraints": [],
+  "universalConstraints": [
+    {
+      "type": "data",
+      "value": {
+        "fields": [
+          "update",
+          "prioritydate",
+          "publicationdate"
+        ],
+        "properties": {
+          "type": "data",
+          "datatype": "date"
+        }
+      }
+    }
+  ],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "biblatex-gost",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-gost/biblatex-gost.dbx"
+}

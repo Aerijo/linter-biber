@@ -1,0 +1,412 @@
+{
+  "constants": [],
+  "entries": [
+    {
+      "names": [
+        "exhibcatalog"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    },
+    {
+      "names": [
+        "inexhibcatalog"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    },
+    {
+      "names": [
+        "catalog"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    },
+    {
+      "names": [
+        "incatalog"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "names": [
+        "eventsubtitle"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "exhibfirstdate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "exhibseconddate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "exhibthirddate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "exhibfirstlocation"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "exhibsecondlocation"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "exhibthirdlocation"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "exhibfirstmuseum"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "exhibsecondmuseum"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "exhibthirdmuseum"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "thesisdate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "thesistype"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "urn"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "jstor"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "arthist"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "integer",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "arthistdate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "thesisdate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "thesistype"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "urn"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "jstor"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "arthist"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "integer",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "arthistdate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "exhibcatalog": [
+      "date",
+      "editor",
+      "venue",
+      "institution",
+      "options",
+      "eventtitle",
+      "eventsubtitle",
+      "eventtitleaddon",
+      "eventdate",
+      "url",
+      "urldate",
+      "note",
+      "year",
+      "volume",
+      "volumes",
+      "sortkey"
+    ],
+    "inexhibcatalog": [
+      "author",
+      "title",
+      "subtitle",
+      "titleaddon",
+      "pages",
+      "url",
+      "urldate",
+      "year",
+      "note",
+      "volume",
+      "volumes",
+      "crossref",
+      "eventsubtitle"
+    ],
+    "catalog": [
+      "date",
+      "editor",
+      "venue",
+      "institution",
+      "options",
+      "eventtitle",
+      "eventsubtitle",
+      "eventtitleaddon",
+      "eventdate",
+      "url",
+      "urldate",
+      "note",
+      "year",
+      "volume",
+      "volumes",
+      "sortkey"
+    ],
+    "incatalog": [
+      "author",
+      "title",
+      "subtitle",
+      "titleaddon",
+      "pages",
+      "url",
+      "urldate",
+      "year",
+      "note",
+      "volume",
+      "volumes",
+      "crossref",
+      "eventsubtitle",
+      "sortkey"
+    ],
+    "book": [
+      "thesisdate",
+      "thesistype"
+    ]
+  },
+  "universalFields": [
+    "urn",
+    "jstor",
+    "arthist",
+    "arthistdate"
+  ],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "arthistory-bonn",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-arthistory-bonn/arthistory-bonn.dbx"
+}

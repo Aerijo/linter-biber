@@ -1,0 +1,1951 @@
+{
+  "constants": [
+    {
+      "type": "list",
+      "name": "gender",
+      "value": [
+        "sf",
+        "sm",
+        "sn",
+        "pf",
+        "pm",
+        "pn",
+        "pp"
+      ]
+    },
+    {
+      "type": "list",
+      "name": "nameparts",
+      "value": [
+        "family",
+        "given",
+        "prefix",
+        "suffix"
+      ]
+    },
+    {
+      "type": "list",
+      "name": "optiondatatypes",
+      "value": [
+        "boolean",
+        "integer",
+        "string",
+        "xml"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "names": [
+        "article",
+        "artwork",
+        "audio",
+        "bibnote",
+        "book",
+        "bookinbook",
+        "booklet",
+        "collection",
+        "commentary",
+        "customa",
+        "customb",
+        "customc",
+        "customd",
+        "custome",
+        "customf",
+        "inbook",
+        "incollection",
+        "inproceedings",
+        "inreference",
+        "image",
+        "jurisdiction",
+        "legal",
+        "legislation",
+        "letter",
+        "manual",
+        "misc",
+        "movie",
+        "music",
+        "mvcollection",
+        "mvreference",
+        "mvproceedings",
+        "mvbook",
+        "online",
+        "patent",
+        "performance",
+        "periodical",
+        "proceedings",
+        "reference",
+        "report",
+        "review",
+        "set",
+        "software",
+        "standard",
+        "suppbook",
+        "suppcollection",
+        "suppperiodical",
+        "thesis",
+        "unpublished",
+        "video"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    },
+    {
+      "names": [
+        "xdata"
+      ],
+      "properties": {
+        "skipout": true
+      }
+    }
+  ],
+  "fields": [
+    {
+      "names": [
+        "number",
+        "volume",
+        "volumes"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "integer",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "abstract",
+        "addendum",
+        "annotation",
+        "booksubtitle",
+        "booktitle",
+        "booktitleaddon",
+        "chapter",
+        "edition",
+        "eid",
+        "entrysubtype",
+        "eprintclass",
+        "eprinttype",
+        "eventtitle",
+        "eventtitleaddon",
+        "gender",
+        "howpublished",
+        "indexsorttitle",
+        "indextitle",
+        "isan",
+        "isbn",
+        "ismn",
+        "isrn",
+        "issn",
+        "issue",
+        "issuesubtitle",
+        "issuetitle",
+        "iswc",
+        "journalsubtitle",
+        "journaltitle",
+        "label",
+        "langid",
+        "langidopts",
+        "library",
+        "mainsubtitle",
+        "maintitle",
+        "maintitleaddon",
+        "nameaddon",
+        "note",
+        "origtitle",
+        "pagetotal",
+        "part",
+        "relatedstring",
+        "relatedtype",
+        "reprinttitle",
+        "series",
+        "shorthandintro",
+        "subtitle",
+        "title",
+        "titleaddon",
+        "usera",
+        "userb",
+        "userc",
+        "userd",
+        "usere",
+        "userf",
+        "venue",
+        "version"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "shorthand",
+        "shortjournal",
+        "shortseries",
+        "shorttitle"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": true
+      }
+    },
+    {
+      "names": [
+        "sortyear",
+        "sorttitle",
+        "sortshorthand",
+        "sortkey",
+        "presort"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "institution",
+        "lista",
+        "listb",
+        "listc",
+        "listd",
+        "liste",
+        "listf",
+        "location",
+        "organization",
+        "origlocation",
+        "origpublisher",
+        "publisher"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "afterword",
+        "annotator",
+        "author",
+        "bookauthor",
+        "commentator",
+        "editor",
+        "editora",
+        "editorb",
+        "editorc",
+        "foreword",
+        "holder",
+        "introduction",
+        "namea",
+        "nameb",
+        "namec",
+        "translator"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "shortauthor",
+        "shorteditor"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": true
+      }
+    },
+    {
+      "names": [
+        "sortname"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "authortype",
+        "editoratype",
+        "editorbtype",
+        "editorctype",
+        "editortype",
+        "bookpagination",
+        "nameatype",
+        "namebtype",
+        "namectype",
+        "pagination",
+        "pubstate",
+        "type"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "key",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "language",
+        "origlanguage"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "key",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "crossref",
+        "xref"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "entrykey",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "date",
+        "eventdate",
+        "origdate",
+        "urldate"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "date",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "doi",
+        "eprint",
+        "file",
+        "verba",
+        "verbb",
+        "verbc"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "verbatim",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "url"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "uri",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "xdata",
+        "ids",
+        "entryset"
+      ],
+      "properties": {
+        "type": "field",
+        "format": "xsv",
+        "datatype": "entrykey",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "related"
+      ],
+      "properties": {
+        "type": "field",
+        "format": "xsv",
+        "datatype": "entrykey",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "keywords"
+      ],
+      "properties": {
+        "type": "field",
+        "format": "xsv",
+        "datatype": "keyword",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "options",
+        "relatedoptions"
+      ],
+      "properties": {
+        "type": "field",
+        "format": "xsv",
+        "datatype": "option",
+        "nullok": false,
+        "skipout": true,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "pages"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "range",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "execute"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "code",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "set": [
+      "entryset",
+      "crossref"
+    ],
+    "article": [
+      "addendum",
+      "annotator",
+      "author",
+      "commentator",
+      "doi",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eid",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "issn",
+      "issue",
+      "issuetitle",
+      "issuesubtitle",
+      "journalsubtitle",
+      "journaltitle",
+      "language",
+      "note",
+      "number",
+      "origlanguage",
+      "pages",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "version",
+      "volume"
+    ],
+    "bibnote": [
+      "note"
+    ],
+    "book": [
+      "author",
+      "addendum",
+      "afterword",
+      "annotator",
+      "chapter",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "maintitle",
+      "maintitleaddon",
+      "mainsubtitle",
+      "note",
+      "number",
+      "origlanguage",
+      "pages",
+      "pagetotal",
+      "part",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "mvbook": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "author",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "note",
+      "number",
+      "origlanguage",
+      "pagetotal",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "inbook": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "author",
+      "booktitle",
+      "bookauthor",
+      "booksubtitle",
+      "booktitleaddon",
+      "chapter",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "origlanguage",
+      "part",
+      "publisher",
+      "pages",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "bookinbook": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "author",
+      "booktitle",
+      "bookauthor",
+      "booksubtitle",
+      "booktitleaddon",
+      "chapter",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "origlanguage",
+      "part",
+      "publisher",
+      "pages",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "suppbook": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "author",
+      "booktitle",
+      "bookauthor",
+      "booksubtitle",
+      "booktitleaddon",
+      "chapter",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "origlanguage",
+      "part",
+      "publisher",
+      "pages",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "booklet": [
+      "addendum",
+      "author",
+      "chapter",
+      "doi",
+      "editor",
+      "editortype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "howpublished",
+      "language",
+      "location",
+      "note",
+      "pages",
+      "pagetotal",
+      "pubstate",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "type"
+    ],
+    "collection": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "chapter",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "origlanguage",
+      "pages",
+      "pagetotal",
+      "part",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "reference": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "chapter",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "origlanguage",
+      "pages",
+      "pagetotal",
+      "part",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "mvcollection": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "author",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "note",
+      "number",
+      "origlanguage",
+      "publisher",
+      "pubstate",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "mvreference": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "author",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "note",
+      "number",
+      "origlanguage",
+      "publisher",
+      "pubstate",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "incollection": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "author",
+      "booksubtitle",
+      "booktitle",
+      "booktitleaddon",
+      "chapter",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "origlanguage",
+      "pages",
+      "part",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "suppcollection": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "author",
+      "booksubtitle",
+      "booktitle",
+      "booktitleaddon",
+      "chapter",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "origlanguage",
+      "pages",
+      "part",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "inreference": [
+      "addendum",
+      "afterword",
+      "annotator",
+      "author",
+      "booksubtitle",
+      "booktitle",
+      "booktitleaddon",
+      "chapter",
+      "commentator",
+      "doi",
+      "edition",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "foreword",
+      "introduction",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "origlanguage",
+      "pages",
+      "part",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "translator",
+      "volume",
+      "volumes"
+    ],
+    "manual": [
+      "addendum",
+      "author",
+      "chapter",
+      "doi",
+      "edition",
+      "editor",
+      "editortype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "isbn",
+      "language",
+      "location",
+      "note",
+      "number",
+      "organization",
+      "pages",
+      "pagetotal",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "type",
+      "version"
+    ],
+    "misc": [
+      "addendum",
+      "author",
+      "doi",
+      "editor",
+      "editortype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "howpublished",
+      "language",
+      "location",
+      "note",
+      "organization",
+      "pubstate",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "type",
+      "version"
+    ],
+    "online": [
+      "addendum",
+      "author",
+      "editor",
+      "editortype",
+      "language",
+      "note",
+      "organization",
+      "pubstate",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "version"
+    ],
+    "patent": [
+      "addendum",
+      "author",
+      "doi",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "holder",
+      "location",
+      "note",
+      "number",
+      "pubstate",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "type",
+      "version"
+    ],
+    "periodical": [
+      "addendum",
+      "doi",
+      "editor",
+      "editora",
+      "editorb",
+      "editorc",
+      "editortype",
+      "editoratype",
+      "editorbtype",
+      "editorctype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "issn",
+      "issue",
+      "issuesubtitle",
+      "issuetitle",
+      "language",
+      "note",
+      "number",
+      "pubstate",
+      "season",
+      "series",
+      "subtitle",
+      "title",
+      "volume"
+    ],
+    "mvproceedings": [
+      "addendum",
+      "doi",
+      "editor",
+      "editortype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "eventday",
+      "eventendday",
+      "eventendhour",
+      "eventendminute",
+      "eventendmonth",
+      "eventendseason",
+      "eventendsecond",
+      "eventendtimezone",
+      "eventendyear",
+      "eventhour",
+      "eventminute",
+      "eventmonth",
+      "eventseason",
+      "eventsecond",
+      "eventtimezone",
+      "eventyear",
+      "eventtitle",
+      "eventtitleaddon",
+      "isbn",
+      "language",
+      "location",
+      "note",
+      "number",
+      "organization",
+      "pagetotal",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "venue",
+      "volumes"
+    ],
+    "proceedings": [
+      "addendum",
+      "chapter",
+      "doi",
+      "editor",
+      "editortype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "eventday",
+      "eventendday",
+      "eventendhour",
+      "eventendminute",
+      "eventendmonth",
+      "eventendseason",
+      "eventendsecond",
+      "eventendtimezone",
+      "eventendyear",
+      "eventhour",
+      "eventminute",
+      "eventmonth",
+      "eventseason",
+      "eventsecond",
+      "eventtimezone",
+      "eventyear",
+      "eventtitle",
+      "eventtitleaddon",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "organization",
+      "pages",
+      "pagetotal",
+      "part",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "venue",
+      "volume",
+      "volumes"
+    ],
+    "inproceedings": [
+      "addendum",
+      "author",
+      "booksubtitle",
+      "booktitle",
+      "booktitleaddon",
+      "chapter",
+      "doi",
+      "editor",
+      "editortype",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "eventday",
+      "eventendday",
+      "eventendhour",
+      "eventendminute",
+      "eventendmonth",
+      "eventendseason",
+      "eventendsecond",
+      "eventendtimezone",
+      "eventendyear",
+      "eventhour",
+      "eventminute",
+      "eventmonth",
+      "eventseason",
+      "eventsecond",
+      "eventtimezone",
+      "eventyear",
+      "eventtitle",
+      "eventtitleaddon",
+      "isbn",
+      "language",
+      "location",
+      "mainsubtitle",
+      "maintitle",
+      "maintitleaddon",
+      "note",
+      "number",
+      "organization",
+      "pages",
+      "part",
+      "publisher",
+      "pubstate",
+      "series",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "venue",
+      "volume",
+      "volumes"
+    ],
+    "report": [
+      "addendum",
+      "author",
+      "chapter",
+      "doi",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "institution",
+      "isrn",
+      "language",
+      "location",
+      "note",
+      "number",
+      "pages",
+      "pagetotal",
+      "pubstate",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "type",
+      "version"
+    ],
+    "thesis": [
+      "addendum",
+      "author",
+      "chapter",
+      "doi",
+      "eprint",
+      "eprintclass",
+      "eprinttype",
+      "institution",
+      "language",
+      "location",
+      "note",
+      "pages",
+      "pagetotal",
+      "pubstate",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "type"
+    ],
+    "unpublished": [
+      "addendum",
+      "author",
+      "eventday",
+      "eventendday",
+      "eventendhour",
+      "eventendminute",
+      "eventendmonth",
+      "eventendseason",
+      "eventendsecond",
+      "eventendtimezone",
+      "eventendyear",
+      "eventhour",
+      "eventminute",
+      "eventmonth",
+      "eventseason",
+      "eventsecond",
+      "eventtimezone",
+      "eventyear",
+      "eventtitle",
+      "eventtitleaddon",
+      "howpublished",
+      "language",
+      "location",
+      "note",
+      "pubstate",
+      "subtitle",
+      "title",
+      "titleaddon",
+      "type",
+      "venue"
+    ]
+  },
+  "universalFields": [
+    "abstract",
+    "annotation",
+    "authortype",
+    "bookpagination",
+    "crossref",
+    "day",
+    "endday",
+    "endhour",
+    "endminute",
+    "endmonth",
+    "endseason",
+    "endsecond",
+    "endtimezone",
+    "endyear",
+    "entryset",
+    "entrysubtype",
+    "execute",
+    "file",
+    "gender",
+    "hour",
+    "ids",
+    "indextitle",
+    "indexsorttitle",
+    "isan",
+    "ismn",
+    "iswc",
+    "keywords",
+    "label",
+    "langid",
+    "langidopts",
+    "library",
+    "lista",
+    "listb",
+    "listc",
+    "listd",
+    "liste",
+    "listf",
+    "minute",
+    "month",
+    "nameaddon",
+    "options",
+    "origday",
+    "origendday",
+    "origendhour",
+    "origendminute",
+    "origendmonth",
+    "origendseason",
+    "origendsecond",
+    "origendtimezone",
+    "origendyear",
+    "orighour",
+    "origminute",
+    "origmonth",
+    "origseason",
+    "origsecond",
+    "origtimezone",
+    "origyear",
+    "origlocation",
+    "origpublisher",
+    "origtitle",
+    "pagination",
+    "presort",
+    "related",
+    "relatedoptions",
+    "relatedstring",
+    "relatedtype",
+    "season",
+    "second",
+    "shortauthor",
+    "shorteditor",
+    "shorthand",
+    "shorthandintro",
+    "shortjournal",
+    "shortseries",
+    "shorttitle",
+    "sortkey",
+    "sortname",
+    "sortshorthand",
+    "sorttitle",
+    "sortyear",
+    "timezone",
+    "url",
+    "urlday",
+    "urlendday",
+    "urlendhour",
+    "urlendminute",
+    "urlendmonth",
+    "urlendsecond",
+    "urlendtimezone",
+    "urlendyear",
+    "urlhour",
+    "urlminute",
+    "urlmonth",
+    "urlsecond",
+    "urltimezone",
+    "urlyear",
+    "usera",
+    "userb",
+    "userc",
+    "userd",
+    "usere",
+    "userf",
+    "verba",
+    "verbb",
+    "verbc",
+    "xdata",
+    "xref",
+    "year"
+  ],
+  "entryConstraints": [
+    {
+      "entries": [
+        "article",
+        "book",
+        "inbook",
+        "bookinbook",
+        "suppbook",
+        "booklet",
+        "collection",
+        "incollection",
+        "suppcollection",
+        "manual",
+        "misc",
+        "mvbook",
+        "mvcollection",
+        "online",
+        "patent",
+        "periodical",
+        "suppperiodical",
+        "proceedings",
+        "inproceedings",
+        "reference",
+        "inreference",
+        "report",
+        "set",
+        "thesis",
+        "unpublished"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [],
+            "some": [],
+            "one": [
+              [
+                "date",
+                "year"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "set"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "entryset",
+              "crossref"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "article"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "author",
+              "journaltitle",
+              "title"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "book",
+        "mvbook",
+        "mvcollection",
+        "mvreference"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "author",
+              "title"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "inbook",
+        "bookinbook",
+        "suppbook"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "author",
+              "title",
+              "booktitle"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "booklet"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "title"
+            ],
+            "some": [
+              [
+                "author",
+                "editor"
+              ]
+            ],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "collection",
+        "reference"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "editor",
+              "title"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "incollection",
+        "suppcollection",
+        "inreference"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "author",
+              "editor",
+              "title",
+              "booktitle"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "manual"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "title"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "misc"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "title"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "online"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "title",
+              "url"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "patent"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "author",
+              "title",
+              "number"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "periodical"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "editor",
+              "title"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "proceedings",
+        "mvproceedings"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "editor",
+              "title"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "inproceedings"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "author",
+              "title",
+              "booktitle"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "report"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "author",
+              "title",
+              "type",
+              "institution"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "thesis"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "author",
+              "title",
+              "type",
+              "institution"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    },
+    {
+      "entries": [
+        "unpublished"
+      ],
+      "constraints": [
+        {
+          "type": "mandatory",
+          "value": {
+            "all": [
+              "author",
+              "title"
+            ],
+            "some": [],
+            "one": []
+          }
+        }
+      ]
+    }
+  ],
+  "universalConstraints": [
+    {
+      "type": "data",
+      "value": {
+        "fields": [
+          "isbn"
+        ],
+        "properties": {
+          "type": "data",
+          "datatype": "isbn"
+        }
+      }
+    },
+    {
+      "type": "data",
+      "value": {
+        "fields": [
+          "issn"
+        ],
+        "properties": {
+          "type": "data",
+          "datatype": "issn"
+        }
+      }
+    },
+    {
+      "type": "data",
+      "value": {
+        "fields": [
+          "ismn"
+        ],
+        "properties": {
+          "type": "data",
+          "datatype": "ismn"
+        }
+      }
+    },
+    {
+      "type": "data",
+      "value": {
+        "fields": [
+          "date",
+          "eventdate",
+          "origdate",
+          "urldate"
+        ],
+        "properties": {
+          "type": "data",
+          "datatype": "date"
+        }
+      }
+    },
+    {
+      "type": "data",
+      "value": {
+        "fields": [
+          "gender"
+        ],
+        "properties": {
+          "type": "data",
+          "datatype": "pattern",
+          "pattern": "\\regexp{(?:sf|sm|sn|pf|pm|pn|pp)}"
+        }
+      }
+    }
+  ],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "default_datamodel",
+  "filePath": "../cite_styles/models/default_datamodel.dbx"
+}

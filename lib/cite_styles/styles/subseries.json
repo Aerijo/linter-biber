@@ -1,0 +1,64 @@
+{
+  "constants": [],
+  "entries": {},
+  "fields": {
+    "subnumber": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "subseries": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "subsubnumber": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "subsubseries": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "shortsubseries": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": true
+    },
+    "shortsubsubseries": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": true
+    }
+  },
+  "entryFields": {},
+  "universalFields": [],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "subseries",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-subseries/subseries.dbx"
+}

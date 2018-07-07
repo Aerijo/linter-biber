@@ -1,0 +1,201 @@
+{
+  "constants": [
+    {
+      "type": "list",
+      "name": "nameparts",
+      "value": [
+        "prefix",
+        "family",
+        "suffix",
+        "given",
+        "trueprefix",
+        "truefamily",
+        "truesuffix",
+        "truegiven"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "names": [
+        "archival"
+      ],
+      "properties": {
+        "skipout": false
+      }
+    }
+  ],
+  "fields": [
+    {
+      "names": [
+        "librarylocation"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "parttitle"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "duration"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "durationtype"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "alternatetitle"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "alternatetitlescript"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "director"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "scriptwriter"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "actor"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "production"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "archival": [
+      "librarylocation"
+    ],
+    "movie": [
+      "duration",
+      "durationtype",
+      "alternatetitle",
+      "alternatetitlescript",
+      "director",
+      "scriptwriter",
+      "actor"
+    ],
+    "misc": [
+      "duration",
+      "durationtype",
+      "alternatetitle",
+      "alternatetitlescript",
+      "director",
+      "scriptwriter",
+      "actor"
+    ],
+    "video": [
+      "duration",
+      "durationtype",
+      "alternatetitle",
+      "alternatetitlescript",
+      "director",
+      "scriptwriter",
+      "actor"
+    ]
+  },
+  "universalFields": [],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "fiwi2",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-fiwi/fiwi2.dbx"
+}

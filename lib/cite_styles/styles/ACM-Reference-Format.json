@@ -1,0 +1,90 @@
+{
+  "constants": [],
+  "entries": [],
+  "fields": [
+    {
+      "names": [
+        "numpages"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "articleno"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "urls"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "uri",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "school"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    },
+    {
+      "names": [
+        "key"
+      ],
+      "properties": {
+        "type": "field",
+        "format": null,
+        "datatype": "literal",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "thesis": [
+      "school"
+    ]
+  },
+  "universalFields": [
+    "numpages",
+    "articleno",
+    "urls",
+    "key"
+  ],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "ACM-Reference-Format",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/acmart/ACM-Reference-Format.dbx"
+}

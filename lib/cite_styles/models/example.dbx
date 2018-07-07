@@ -1,0 +1,32 @@
+\ResetDatamodelEntrytypes
+\ResetDatamodelFields
+\ResetDatamodelEntryfields
+\ResetDatamodelConstraints
+\DeclareDatamodelEntrytypes{entrytype1, entrytype2}
+\DeclareDatamodelFields[type=field, datatype=literal]{
+field1,field2,field3,field4}
+\DeclareDatamodelEntryfields{field1}
+\DeclareDatamodelEntryfields[entrytype1]{field2,field3}
+\DeclareDatamodelEntryfields[entrytype2]{field2,field3,
+field4}
+\DeclareDatamodelConstraints[entrytype1]{
+\constraint[type=data, datatype=integer, rangemin=3,
+rangemax=10]{ \constraintfield{field1}
+}
+\constraint[type=mandatory]{
+\constraintfield{field1}
+\constraintfieldsxor{
+\constraintfield{field2}
+\constraintfield{field3}
+}
+} }
+\DeclareDatamodelConstraints{
+\constraint[type=conditional]{
+\antecedent[quantifier=none]{
+\constraintfield{field2}
+}
+\consequent[quantifier=all]{
+\constraintfield{field3}
+\constraintfield{field4}
+}
+} }

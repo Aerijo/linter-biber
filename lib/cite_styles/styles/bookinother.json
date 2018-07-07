@@ -1,0 +1,126 @@
+{
+  "constants": [],
+  "entries": [],
+  "fields": [
+    {
+      "names": [
+        "bookeditor",
+        "bookineditor",
+        "mainauthor"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "bookinarticle": [
+      "bookeditor",
+      "bookineditor"
+    ],
+    "inarticle": [
+      "bookeditor",
+      "bookineditor"
+    ],
+    "bookinthesis": [
+      "bookeditor",
+      "bookineditor"
+    ],
+    "bookinmathesis": [
+      "bookeditor",
+      "bookineditor"
+    ],
+    "bookinphdthesis": [
+      "bookeditor",
+      "bookineditor"
+    ],
+    "inthesis": [
+      "bookeditor",
+      "bookineditor"
+    ],
+    "inmathesis": [
+      "bookeditor",
+      "bookineditor"
+    ],
+    "inphdthesis": [
+      "bookeditor",
+      "bookineditor"
+    ],
+    "bookincollection": [
+      "bookeditor",
+      "bookineditor",
+      "maineditor"
+    ],
+    "bookinproceedings": [
+      "bookeditor",
+      "bookineditor",
+      "maineditor"
+    ],
+    "bookinreference": [
+      "bookeditor",
+      "bookineditor",
+      "maineditor"
+    ],
+    "bookinincollection": [
+      "bookeditor",
+      "bookineditor",
+      "maineditor"
+    ],
+    "bookininproceedings": [
+      "bookeditor",
+      "bookineditor",
+      "maineditor"
+    ],
+    "bookininreference": [
+      "bookeditor",
+      "bookineditor",
+      "maineditor"
+    ],
+    "inincollection": [
+      "bookeditor",
+      "bookineditor",
+      "maineditor"
+    ],
+    "ininproceedings": [
+      "bookeditor",
+      "bookineditor",
+      "maineditor"
+    ],
+    "ininreference": [
+      "bookeditor",
+      "bookineditor",
+      "maineditor"
+    ],
+    "bookinjournal": [
+      "bookineditor"
+    ],
+    "ininbook": [
+      "bookineditor"
+    ],
+    "bookininbook": [
+      "bookineditor"
+    ],
+    "ininarticle": [
+      "bookineditor",
+      "mainauthor"
+    ],
+    "bookininarticle": [
+      "bookineditor",
+      "mainauthor"
+    ]
+  },
+  "universalFields": [],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "bookinother",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-bookinother/bookinother.dbx"
+}

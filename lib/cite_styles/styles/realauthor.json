@@ -1,0 +1,33 @@
+{
+  "constants": [],
+  "entries": [],
+  "fields": [
+    {
+      "names": [
+        "realauthor",
+        "realeditor"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {},
+  "universalFields": [
+    "realauthor",
+    "realeditor"
+  ],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "realauthor",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-realauthor/realauthor.dbx"
+}

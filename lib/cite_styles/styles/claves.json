@@ -1,0 +1,32 @@
+{
+  "constants": [],
+  "entries": {},
+  "fields": {
+    "claves": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    },
+    "claves_definition": {
+      "type": "field",
+      "format": null,
+      "datatype": "literal",
+      "nullok": false,
+      "skipout": false,
+      "label": false
+    }
+  },
+  "entryFields": {},
+  "universalFields": [],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "claves",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-claves/claves.dbx"
+}

@@ -1,0 +1,90 @@
+{
+  "constants": [],
+  "entries": [],
+  "fields": [
+    {
+      "names": [
+        "maintainer"
+      ],
+      "properties": {
+        "type": "list",
+        "format": null,
+        "datatype": "name",
+        "nullok": false,
+        "skipout": false,
+        "label": false
+      }
+    }
+  ],
+  "entryFields": {
+    "package": [
+      "author",
+      "maintainer",
+      "info",
+      "title",
+      "day",
+      "month",
+      "year",
+      "addendum",
+      "language",
+      "note",
+      "subtitle",
+      "titleaddon",
+      "translator",
+      "url",
+      "urlday",
+      "urlmonth",
+      "urlyear",
+      "version"
+    ],
+    "class": [
+      "author",
+      "maintainer",
+      "info",
+      "title",
+      "day",
+      "month",
+      "year",
+      "addendum",
+      "language",
+      "note",
+      "subtitle",
+      "titleaddon",
+      "translator",
+      "url",
+      "urlday",
+      "urlmonth",
+      "urlyear",
+      "version"
+    ],
+    "bundle": [
+      "author",
+      "maintainer",
+      "info",
+      "title",
+      "day",
+      "month",
+      "year",
+      "addendum",
+      "language",
+      "note",
+      "subtitle",
+      "titleaddon",
+      "translator",
+      "url",
+      "urlday",
+      "urlmonth",
+      "urlyear",
+      "version"
+    ]
+  },
+  "universalFields": [],
+  "entryConstraints": [],
+  "universalConstraints": [],
+  "resetPriorEntries": false,
+  "resetPriorFields": false,
+  "resetPriorEntryFields": false,
+  "resetPriorConstraints": false,
+  "name": "cnltx",
+  "filePath": "/usr/local/texlive/2018/texmf-dist/tex/latex/cnltx/cnltx.dbx"
+}
