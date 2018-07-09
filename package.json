@@ -17,6 +17,9 @@
     "tree-sitter": "latest",
     "tree-sitter-biber": "latest"
   },
+  "devDependencies": {
+    "eslint": "^5.0.1"
+  },
   "consumedServices": {
     "linter-indie": {
       "versions": {
@@ -43,8 +46,5 @@
       "default": 10000,
       "description": "Use this to customise roughly how many lines will be linted before giving up. Restart required to apply changes"
     }
-  },
-  "devDependencies": {
-    "eslint": "^5.0.1"
   }
 }
