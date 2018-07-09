@@ -3,7 +3,7 @@
   "entries": [
     {
       "names": [
-        "talk"
+        "TALK"
       ],
       "properties": {
         "skipout": false
@@ -13,13 +13,13 @@
   "fields": [
     {
       "names": [
-        "ineditor",
-        "intranslator",
-        "inannotator",
-        "incommentator",
-        "inintroduction",
-        "inforeword",
-        "inafterword"
+        "INEDITOR",
+        "INTRANSLATOR",
+        "INANNOTATOR",
+        "INCOMMENTATOR",
+        "ININTRODUCTION",
+        "INFOREWORD",
+        "INAFTERWORD"
       ],
       "properties": {
         "type": "list",
@@ -32,7 +32,7 @@
     },
     {
       "names": [
-        "zenon"
+        "ZENON"
       ],
       "properties": {
         "type": "field",
@@ -45,7 +45,7 @@
     },
     {
       "names": [
-        "arachne"
+        "ARACHNE"
       ],
       "properties": {
         "type": "field",
@@ -58,7 +58,7 @@
     },
     {
       "names": [
-        "urn"
+        "URN"
       ],
       "properties": {
         "type": "field",
@@ -71,7 +71,7 @@
     },
     {
       "names": [
-        "jstor"
+        "JSTOR"
       ],
       "properties": {
         "type": "field",
@@ -84,7 +84,7 @@
     },
     {
       "names": [
-        "eventdatelanguage"
+        "EVENTDATELANGUAGE"
       ],
       "properties": {
         "type": "field",
@@ -96,69 +96,87 @@
       }
     }
   ],
-  "entryFields": {
-    "inbook": [
-      "ineditor",
-      "intranslator",
-      "inannotator",
-      "incommentator",
-      "inintroduction",
-      "inforeword",
-      "inafterword"
+  "entryFields": [
+    [
+      "INBOOK",
+      [
+        "INEDITOR",
+        "INTRANSLATOR",
+        "INANNOTATOR",
+        "INCOMMENTATOR",
+        "ININTRODUCTION",
+        "INFOREWORD",
+        "INAFTERWORD"
+      ]
     ],
-    "incollection": [
-      "ineditor",
-      "intranslator",
-      "inannotator",
-      "incommentator",
-      "inintroduction",
-      "inforeword",
-      "inafterword"
+    [
+      "INCOLLECTION",
+      [
+        "INEDITOR",
+        "INTRANSLATOR",
+        "INANNOTATOR",
+        "INCOMMENTATOR",
+        "ININTRODUCTION",
+        "INFOREWORD",
+        "INAFTERWORD"
+      ]
     ],
-    "inproceedings": [
-      "ineditor",
-      "intranslator",
-      "inannotator",
-      "incommentator",
-      "inintroduction",
-      "inforeword",
-      "inafterword",
-      "eventdatelanguage"
+    [
+      "INPROCEEDINGS",
+      [
+        "INEDITOR",
+        "INTRANSLATOR",
+        "INANNOTATOR",
+        "INCOMMENTATOR",
+        "ININTRODUCTION",
+        "INFOREWORD",
+        "INAFTERWORD",
+        "EVENTDATELANGUAGE"
+      ]
     ],
-    "inreference": [
-      "ineditor",
-      "intranslator",
-      "inannotator",
-      "incommentator",
-      "inintroduction",
-      "inforeword",
-      "inafterword"
+    [
+      "INREFERENCE",
+      [
+        "INEDITOR",
+        "INTRANSLATOR",
+        "INANNOTATOR",
+        "INCOMMENTATOR",
+        "ININTRODUCTION",
+        "INFOREWORD",
+        "INAFTERWORD"
+      ]
     ],
-    "talk": [
-      "author",
-      "title",
-      "subtitle",
-      "titleaddon",
-      "date",
-      "labeldate",
-      "year",
-      "venue",
-      "institution",
-      "eventtitle",
-      "eventdate",
-      "url",
-      "urldate",
-      "note"
+    [
+      "TALK",
+      [
+        "AUTHOR",
+        "TITLE",
+        "SUBTITLE",
+        "TITLEADDON",
+        "DATE",
+        "LABELDATE",
+        "YEAR",
+        "VENUE",
+        "INSTITUTION",
+        "EVENTTITLE",
+        "EVENTDATE",
+        "URL",
+        "URLDATE",
+        "NOTE"
+      ]
     ],
-    "proceedings": [
-      "eventdatelanguage"
+    [
+      "PROCEEDINGS",
+      [
+        "EVENTDATELANGUAGE"
+      ]
     ]
-  },
+  ],
   "universalFields": [
-    "zenon",
-    "arachne",
-    "urn",
-    "jstor"
+    "ZENON",
+    "ARACHNE",
+    "URN",
+    "JSTOR"
   ],
   "entryConstraints": [],
   "universalConstraints": [],

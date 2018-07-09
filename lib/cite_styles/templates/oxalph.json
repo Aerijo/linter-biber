@@ -15,7 +15,7 @@
   "entries": [
     {
       "names": [
-        "manuscript"
+        "MANUSCRIPT"
       ],
       "properties": {
         "skipout": false
@@ -25,8 +25,8 @@
   "fields": [
     {
       "names": [
-        "datetype",
-        "origdatetype"
+        "DATETYPE",
+        "ORIGDATETYPE"
       ],
       "properties": {
         "type": "field",
@@ -39,9 +39,9 @@
     },
     {
       "names": [
-        "authoraddon",
-        "editoraddon",
-        "serieseditor"
+        "AUTHORADDON",
+        "EDITORADDON",
+        "SERIESEDITOR"
       ],
       "properties": {
         "type": "list",
@@ -54,7 +54,7 @@
     },
     {
       "names": [
-        "jointauthor"
+        "JOINTAUTHOR"
       ],
       "properties": {
         "type": "list",
@@ -67,7 +67,7 @@
     },
     {
       "names": [
-        "jointauthortype"
+        "JOINTAUTHORTYPE"
       ],
       "properties": {
         "type": "field",
@@ -80,7 +80,7 @@
     },
     {
       "names": [
-        "rawauthor"
+        "RAWAUTHOR"
       ],
       "properties": {
         "type": "field",
@@ -93,7 +93,7 @@
     },
     {
       "names": [
-        "shortlabeltitle"
+        "SHORTLABELTITLE"
       ],
       "properties": {
         "type": "field",
@@ -106,18 +106,18 @@
     },
     {
       "names": [
-        "catalog",
-        "dating",
-        "shortlibrary",
-        "columns",
-        "collection",
-        "shortcollection",
-        "usualtitle",
-        "shelfmark",
-        "sortshelfmark",
-        "support",
-        "columns",
-        "layer"
+        "CATALOG",
+        "DATING",
+        "SHORTLIBRARY",
+        "COLUMNS",
+        "COLLECTION",
+        "SHORTCOLLECTION",
+        "USUALTITLE",
+        "SHELFMARK",
+        "SORTSHELFMARK",
+        "SUPPORT",
+        "COLUMNS",
+        "LAYER"
       ],
       "properties": {
         "type": "field",
@@ -130,8 +130,8 @@
     },
     {
       "names": [
-        "scribe",
-        "owner"
+        "SCRIBE",
+        "OWNER"
       ],
       "properties": {
         "type": "list",
@@ -144,7 +144,7 @@
     },
     {
       "names": [
-        "origin"
+        "ORIGIN"
       ],
       "properties": {
         "type": "list",
@@ -157,7 +157,7 @@
     },
     {
       "names": [
-        "pardate"
+        "PARDATE"
       ],
       "properties": {
         "type": "field",
@@ -169,36 +169,42 @@
       }
     }
   ],
-  "entryFields": {
-    "manuscript": [
-      "catalog",
-      "dating",
-      "shortlibrary",
-      "shortcollection",
-      "columns",
-      "languages",
-      "collection",
-      "usualtitle",
-      "shelfmark",
-      "sortshelfmark",
-      "support",
-      "origin",
-      "scribe",
-      "owner"
+  "entryFields": [
+    [
+      "MANUSCRIPT",
+      [
+        "CATALOG",
+        "DATING",
+        "SHORTLIBRARY",
+        "SHORTCOLLECTION",
+        "COLUMNS",
+        "LANGUAGES",
+        "COLLECTION",
+        "USUALTITLE",
+        "SHELFMARK",
+        "SORTSHELFMARK",
+        "SUPPORT",
+        "ORIGIN",
+        "SCRIBE",
+        "OWNER"
+      ]
     ],
-    "jurisdiction": [
-      "pardate"
+    [
+      "JURISDICTION",
+      [
+        "PARDATE"
+      ]
     ]
-  },
+  ],
   "universalFields": [
-    "datetype",
-    "origdatetype",
-    "authoraddon",
-    "editoraddon",
-    "serieseditor",
-    "jointauthor",
-    "jointauthortype",
-    "rawauthor"
+    "DATETYPE",
+    "ORIGDATETYPE",
+    "AUTHORADDON",
+    "EDITORADDON",
+    "SERIESEDITOR",
+    "JOINTAUTHOR",
+    "JOINTAUTHORTYPE",
+    "RAWAUTHOR"
   ],
   "entryConstraints": [],
   "universalConstraints": [],

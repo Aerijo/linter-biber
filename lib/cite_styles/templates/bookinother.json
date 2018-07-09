@@ -4,9 +4,9 @@
   "fields": [
     {
       "names": [
-        "bookeditor",
-        "bookineditor",
-        "mainauthor"
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINAUTHOR"
       ],
       "properties": {
         "type": "list",
@@ -18,102 +18,168 @@
       }
     }
   ],
-  "entryFields": {
-    "bookinarticle": [
-      "bookeditor",
-      "bookineditor"
+  "entryFields": [
+    [
+      "BOOKINARTICLE",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR"
+      ]
     ],
-    "inarticle": [
-      "bookeditor",
-      "bookineditor"
+    [
+      "INARTICLE",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR"
+      ]
     ],
-    "bookinthesis": [
-      "bookeditor",
-      "bookineditor"
+    [
+      "BOOKINTHESIS",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR"
+      ]
     ],
-    "bookinmathesis": [
-      "bookeditor",
-      "bookineditor"
+    [
+      "BOOKINMATHESIS",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR"
+      ]
     ],
-    "bookinphdthesis": [
-      "bookeditor",
-      "bookineditor"
+    [
+      "BOOKINPHDTHESIS",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR"
+      ]
     ],
-    "inthesis": [
-      "bookeditor",
-      "bookineditor"
+    [
+      "INTHESIS",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR"
+      ]
     ],
-    "inmathesis": [
-      "bookeditor",
-      "bookineditor"
+    [
+      "INMATHESIS",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR"
+      ]
     ],
-    "inphdthesis": [
-      "bookeditor",
-      "bookineditor"
+    [
+      "INPHDTHESIS",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR"
+      ]
     ],
-    "bookincollection": [
-      "bookeditor",
-      "bookineditor",
-      "maineditor"
+    [
+      "BOOKINCOLLECTION",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINEDITOR"
+      ]
     ],
-    "bookinproceedings": [
-      "bookeditor",
-      "bookineditor",
-      "maineditor"
+    [
+      "BOOKINPROCEEDINGS",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINEDITOR"
+      ]
     ],
-    "bookinreference": [
-      "bookeditor",
-      "bookineditor",
-      "maineditor"
+    [
+      "BOOKINREFERENCE",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINEDITOR"
+      ]
     ],
-    "bookinincollection": [
-      "bookeditor",
-      "bookineditor",
-      "maineditor"
+    [
+      "BOOKININCOLLECTION",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINEDITOR"
+      ]
     ],
-    "bookininproceedings": [
-      "bookeditor",
-      "bookineditor",
-      "maineditor"
+    [
+      "BOOKININPROCEEDINGS",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINEDITOR"
+      ]
     ],
-    "bookininreference": [
-      "bookeditor",
-      "bookineditor",
-      "maineditor"
+    [
+      "BOOKININREFERENCE",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINEDITOR"
+      ]
     ],
-    "inincollection": [
-      "bookeditor",
-      "bookineditor",
-      "maineditor"
+    [
+      "ININCOLLECTION",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINEDITOR"
+      ]
     ],
-    "ininproceedings": [
-      "bookeditor",
-      "bookineditor",
-      "maineditor"
+    [
+      "ININPROCEEDINGS",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINEDITOR"
+      ]
     ],
-    "ininreference": [
-      "bookeditor",
-      "bookineditor",
-      "maineditor"
+    [
+      "ININREFERENCE",
+      [
+        "BOOKEDITOR",
+        "BOOKINEDITOR",
+        "MAINEDITOR"
+      ]
     ],
-    "bookinjournal": [
-      "bookineditor"
+    [
+      "BOOKINJOURNAL",
+      [
+        "BOOKINEDITOR"
+      ]
     ],
-    "ininbook": [
-      "bookineditor"
+    [
+      "ININBOOK",
+      [
+        "BOOKINEDITOR"
+      ]
     ],
-    "bookininbook": [
-      "bookineditor"
+    [
+      "BOOKININBOOK",
+      [
+        "BOOKINEDITOR"
+      ]
     ],
-    "ininarticle": [
-      "bookineditor",
-      "mainauthor"
+    [
+      "ININARTICLE",
+      [
+        "BOOKINEDITOR",
+        "MAINAUTHOR"
+      ]
     ],
-    "bookininarticle": [
-      "bookineditor",
-      "mainauthor"
+    [
+      "BOOKININARTICLE",
+      [
+        "BOOKINEDITOR",
+        "MAINAUTHOR"
+      ]
     ]
-  },
+  ],
   "universalFields": [],
   "entryConstraints": [],
   "universalConstraints": [],

@@ -3,7 +3,7 @@
   "entries": [
     {
       "names": [
-        "manuscript"
+        "MANUSCRIPT"
       ],
       "properties": {
         "skipout": false
@@ -13,18 +13,18 @@
   "fields": [
     {
       "names": [
-        "catalog",
-        "dating",
-        "shortlibrary",
-        "columns",
-        "collection",
-        "shortcollection",
-        "usualtitle",
-        "shelfmark",
-        "sortshelfmark",
-        "support",
-        "columns",
-        "layer"
+        "CATALOG",
+        "DATING",
+        "SHORTLIBRARY",
+        "COLUMNS",
+        "COLLECTION",
+        "SHORTCOLLECTION",
+        "USUALTITLE",
+        "SHELFMARK",
+        "SORTSHELFMARK",
+        "SUPPORT",
+        "COLUMNS",
+        "LAYER"
       ],
       "properties": {
         "type": "field",
@@ -37,8 +37,8 @@
     },
     {
       "names": [
-        "scribe",
-        "owner"
+        "SCRIBE",
+        "OWNER"
       ],
       "properties": {
         "type": "list",
@@ -51,7 +51,7 @@
     },
     {
       "names": [
-        "origin"
+        "ORIGIN"
       ],
       "properties": {
         "type": "list",
@@ -63,24 +63,27 @@
       }
     }
   ],
-  "entryFields": {
-    "manuscript": [
-      "catalog",
-      "dating",
-      "shortlibrary",
-      "shortcollection",
-      "columns",
-      "languages",
-      "collection",
-      "usualtitle",
-      "shelfmark",
-      "sortshelfmark",
-      "support",
-      "origin",
-      "scribe",
-      "owner"
+  "entryFields": [
+    [
+      "MANUSCRIPT",
+      [
+        "CATALOG",
+        "DATING",
+        "SHORTLIBRARY",
+        "SHORTCOLLECTION",
+        "COLUMNS",
+        "LANGUAGES",
+        "COLLECTION",
+        "USUALTITLE",
+        "SHELFMARK",
+        "SORTSHELFMARK",
+        "SUPPORT",
+        "ORIGIN",
+        "SCRIBE",
+        "OWNER"
+      ]
     ]
-  },
+  ],
   "universalFields": [],
   "entryConstraints": [],
   "universalConstraints": [],

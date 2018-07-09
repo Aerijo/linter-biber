@@ -4,8 +4,8 @@
   "fields": [
     {
       "names": [
-        "shortsubseries",
-        "subseries"
+        "SHORTSUBSERIES",
+        "SUBSERIES"
       ],
       "properties": {
         "type": "field",
@@ -18,7 +18,7 @@
     },
     {
       "names": [
-        "subnumber"
+        "SUBNUMBER"
       ],
       "properties": {
         "type": "field",
@@ -31,7 +31,7 @@
     },
     {
       "names": [
-        "titlenote"
+        "TITLENOTE"
       ],
       "properties": {
         "type": "field",
@@ -44,7 +44,7 @@
     },
     {
       "names": [
-        "maintitlenote"
+        "MAINTITLENOTE"
       ],
       "properties": {
         "type": "field",
@@ -57,7 +57,7 @@
     },
     {
       "names": [
-        "booktitlenote"
+        "BOOKTITLENOTE"
       ],
       "properties": {
         "type": "field",
@@ -70,7 +70,7 @@
     },
     {
       "names": [
-        "summarytitle"
+        "SUMMARYTITLE"
       ],
       "properties": {
         "type": "field",
@@ -83,7 +83,7 @@
     },
     {
       "names": [
-        "shortform"
+        "SHORTFORM"
       ],
       "properties": {
         "type": "field",
@@ -96,7 +96,7 @@
     },
     {
       "names": [
-        "festschrift"
+        "FESTSCHRIFT"
       ],
       "properties": {
         "type": "list",
@@ -109,7 +109,7 @@
     },
     {
       "names": [
-        "festschriftaddon"
+        "FESTSCHRIFTADDON"
       ],
       "properties": {
         "type": "field",
@@ -122,7 +122,7 @@
     },
     {
       "names": [
-        "eventnumber"
+        "EVENTNUMBER"
       ],
       "properties": {
         "type": "field",
@@ -135,7 +135,7 @@
     },
     {
       "names": [
-        "eventtype"
+        "EVENTTYPE"
       ],
       "properties": {
         "type": "field",
@@ -148,7 +148,7 @@
     },
     {
       "names": [
-        "multieventdate"
+        "MULTIEVENTDATE"
       ],
       "properties": {
         "type": "list",
@@ -161,7 +161,7 @@
     },
     {
       "names": [
-        "multivenue"
+        "MULTIVENUE"
       ],
       "properties": {
         "type": "list",
@@ -174,10 +174,10 @@
     },
     {
       "names": [
-        "realdate",
-        "origrealdate",
-        "fulleventdate",
-        "newsdate"
+        "REALDATE",
+        "ORIGREALDATE",
+        "FULLEVENTDATE",
+        "NEWSDATE"
       ],
       "properties": {
         "type": "field",
@@ -190,8 +190,8 @@
     },
     {
       "names": [
-        "realdate",
-        "origrealdate"
+        "REALDATE",
+        "ORIGREALDATE"
       ],
       "properties": {
         "type": "field",
@@ -204,7 +204,7 @@
     },
     {
       "names": [
-        "date+an"
+        "DATE+AN"
       ],
       "properties": {
         "type": "field",
@@ -217,7 +217,7 @@
     },
     {
       "names": [
-        "origdate+an"
+        "ORIGDATE+AN"
       ],
       "properties": {
         "type": "field",
@@ -229,251 +229,308 @@
       }
     }
   ],
-  "entryFields": {
-    "book": [
-      "shortsubseries",
-      "subnumber",
-      "subseries"
+  "entryFields": [
+    [
+      "BOOK",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES"
+      ]
     ],
-    "bookinbook": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "booktitlenote",
-      "fulleventdate"
+    [
+      "BOOKINBOOK",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "BOOKTITLENOTE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "inbook": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "booktitlenote",
-      "fulleventdate"
+    [
+      "INBOOK",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "BOOKTITLENOTE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "collection": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "fulleventdate"
+    [
+      "COLLECTION",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "incollection": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "booktitlenote",
-      "fulleventdate"
+    [
+      "INCOLLECTION",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "BOOKTITLENOTE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "inproceedings": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "booktitlenote",
-      "fulleventdate"
+    [
+      "INPROCEEDINGS",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "BOOKTITLENOTE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "mvbook": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "fulleventdate"
+    [
+      "MVBOOK",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "mvcollection": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "fulleventdate"
+    [
+      "MVCOLLECTION",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "mvproceedings": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "fulleventdate"
+    [
+      "MVPROCEEDINGS",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "proceedings": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "fulleventdate"
+    [
+      "PROCEEDINGS",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "reference": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "fulleventdate"
+    [
+      "REFERENCE",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "inreference": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "booktitlenote",
-      "fulleventdate"
+    [
+      "INREFERENCE",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "BOOKTITLENOTE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "mvreference": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "fulleventdate"
+    [
+      "MVREFERENCE",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "suppbook": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "booktitlenote",
-      "fulleventdate"
+    [
+      "SUPPBOOK",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "BOOKTITLENOTE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "suppcollection": [
-      "shortsubseries",
-      "subnumber",
-      "subseries",
-      "shortform",
-      "festschrift",
-      "festschriftaddon",
-      "eventnumber",
-      "eventtype",
-      "eventdate",
-      "venue",
-      "multieventdate",
-      "multivenue",
-      "booktitlenote",
-      "fulleventdate"
+    [
+      "SUPPCOLLECTION",
+      [
+        "SHORTSUBSERIES",
+        "SUBNUMBER",
+        "SUBSERIES",
+        "SHORTFORM",
+        "FESTSCHRIFT",
+        "FESTSCHRIFTADDON",
+        "EVENTNUMBER",
+        "EVENTTYPE",
+        "EVENTDATE",
+        "VENUE",
+        "MULTIEVENTDATE",
+        "MULTIVENUE",
+        "BOOKTITLENOTE",
+        "FULLEVENTDATE"
+      ]
     ],
-    "article": [
-      "newsdate",
-      "location"
+    [
+      "ARTICLE",
+      [
+        "NEWSDATE",
+        "LOCATION"
+      ]
     ],
-    "periodical": [
-      "newsdate",
-      "location"
+    [
+      "PERIODICAL",
+      [
+        "NEWSDATE",
+        "LOCATION"
+      ]
     ],
-    "suppperiodical": [
-      "newsdate",
-      "location"
+    [
+      "SUPPPERIODICAL",
+      [
+        "NEWSDATE",
+        "LOCATION"
+      ]
     ],
-    "review": [
-      "newsdate",
-      "location"
+    [
+      "REVIEW",
+      [
+        "NEWSDATE",
+        "LOCATION"
+      ]
     ]
-  },
+  ],
   "universalFields": [
-    "summarytitle",
-    "titlenote",
-    "realdate",
-    "origrealdate"
+    "SUMMARYTITLE",
+    "TITLENOTE",
+    "REALDATE",
+    "ORIGREALDATE"
   ],
   "entryConstraints": [],
   "universalConstraints": [],

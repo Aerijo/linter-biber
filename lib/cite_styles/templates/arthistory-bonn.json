@@ -3,7 +3,7 @@
   "entries": [
     {
       "names": [
-        "exhibcatalog"
+        "EXHIBCATALOG"
       ],
       "properties": {
         "skipout": false
@@ -11,7 +11,7 @@
     },
     {
       "names": [
-        "inexhibcatalog"
+        "INEXHIBCATALOG"
       ],
       "properties": {
         "skipout": false
@@ -19,7 +19,7 @@
     },
     {
       "names": [
-        "catalog"
+        "CATALOG"
       ],
       "properties": {
         "skipout": false
@@ -27,7 +27,7 @@
     },
     {
       "names": [
-        "incatalog"
+        "INCATALOG"
       ],
       "properties": {
         "skipout": false
@@ -37,7 +37,7 @@
   "fields": [
     {
       "names": [
-        "eventsubtitle"
+        "EVENTSUBTITLE"
       ],
       "properties": {
         "type": "field",
@@ -50,7 +50,7 @@
     },
     {
       "names": [
-        "exhibfirstdate"
+        "EXHIBFIRSTDATE"
       ],
       "properties": {
         "type": "field",
@@ -63,7 +63,7 @@
     },
     {
       "names": [
-        "exhibseconddate"
+        "EXHIBSECONDDATE"
       ],
       "properties": {
         "type": "field",
@@ -76,7 +76,7 @@
     },
     {
       "names": [
-        "exhibthirddate"
+        "EXHIBTHIRDDATE"
       ],
       "properties": {
         "type": "field",
@@ -89,7 +89,7 @@
     },
     {
       "names": [
-        "exhibfirstlocation"
+        "EXHIBFIRSTLOCATION"
       ],
       "properties": {
         "type": "field",
@@ -102,7 +102,7 @@
     },
     {
       "names": [
-        "exhibsecondlocation"
+        "EXHIBSECONDLOCATION"
       ],
       "properties": {
         "type": "field",
@@ -115,7 +115,7 @@
     },
     {
       "names": [
-        "exhibthirdlocation"
+        "EXHIBTHIRDLOCATION"
       ],
       "properties": {
         "type": "field",
@@ -128,7 +128,7 @@
     },
     {
       "names": [
-        "exhibfirstmuseum"
+        "EXHIBFIRSTMUSEUM"
       ],
       "properties": {
         "type": "field",
@@ -141,7 +141,7 @@
     },
     {
       "names": [
-        "exhibsecondmuseum"
+        "EXHIBSECONDMUSEUM"
       ],
       "properties": {
         "type": "field",
@@ -154,7 +154,7 @@
     },
     {
       "names": [
-        "exhibthirdmuseum"
+        "EXHIBTHIRDMUSEUM"
       ],
       "properties": {
         "type": "field",
@@ -167,7 +167,7 @@
     },
     {
       "names": [
-        "thesisdate"
+        "THESISDATE"
       ],
       "properties": {
         "type": "field",
@@ -180,7 +180,7 @@
     },
     {
       "names": [
-        "thesistype"
+        "THESISTYPE"
       ],
       "properties": {
         "type": "field",
@@ -193,7 +193,7 @@
     },
     {
       "names": [
-        "urn"
+        "URN"
       ],
       "properties": {
         "type": "field",
@@ -206,7 +206,7 @@
     },
     {
       "names": [
-        "jstor"
+        "JSTOR"
       ],
       "properties": {
         "type": "field",
@@ -219,7 +219,7 @@
     },
     {
       "names": [
-        "arthist"
+        "ARTHIST"
       ],
       "properties": {
         "type": "field",
@@ -232,7 +232,7 @@
     },
     {
       "names": [
-        "arthistdate"
+        "ARTHISTDATE"
       ],
       "properties": {
         "type": "field",
@@ -245,7 +245,7 @@
     },
     {
       "names": [
-        "thesisdate"
+        "THESISDATE"
       ],
       "properties": {
         "type": "field",
@@ -258,7 +258,7 @@
     },
     {
       "names": [
-        "thesistype"
+        "THESISTYPE"
       ],
       "properties": {
         "type": "field",
@@ -271,7 +271,7 @@
     },
     {
       "names": [
-        "urn"
+        "URN"
       ],
       "properties": {
         "type": "field",
@@ -284,7 +284,7 @@
     },
     {
       "names": [
-        "jstor"
+        "JSTOR"
       ],
       "properties": {
         "type": "field",
@@ -297,7 +297,7 @@
     },
     {
       "names": [
-        "arthist"
+        "ARTHIST"
       ],
       "properties": {
         "type": "field",
@@ -310,7 +310,7 @@
     },
     {
       "names": [
-        "arthistdate"
+        "ARTHISTDATE"
       ],
       "properties": {
         "type": "field",
@@ -322,84 +322,99 @@
       }
     }
   ],
-  "entryFields": {
-    "exhibcatalog": [
-      "date",
-      "editor",
-      "venue",
-      "institution",
-      "options",
-      "eventtitle",
-      "eventsubtitle",
-      "eventtitleaddon",
-      "eventdate",
-      "url",
-      "urldate",
-      "note",
-      "year",
-      "volume",
-      "volumes",
-      "sortkey"
+  "entryFields": [
+    [
+      "EXHIBCATALOG",
+      [
+        "DATE",
+        "EDITOR",
+        "VENUE",
+        "INSTITUTION",
+        "OPTIONS",
+        "EVENTTITLE",
+        "EVENTSUBTITLE",
+        "EVENTTITLEADDON",
+        "EVENTDATE",
+        "URL",
+        "URLDATE",
+        "NOTE",
+        "YEAR",
+        "VOLUME",
+        "VOLUMES",
+        "SORTKEY"
+      ]
     ],
-    "inexhibcatalog": [
-      "author",
-      "title",
-      "subtitle",
-      "titleaddon",
-      "pages",
-      "url",
-      "urldate",
-      "year",
-      "note",
-      "volume",
-      "volumes",
-      "crossref",
-      "eventsubtitle"
+    [
+      "INEXHIBCATALOG",
+      [
+        "AUTHOR",
+        "TITLE",
+        "SUBTITLE",
+        "TITLEADDON",
+        "PAGES",
+        "URL",
+        "URLDATE",
+        "YEAR",
+        "NOTE",
+        "VOLUME",
+        "VOLUMES",
+        "CROSSREF",
+        "EVENTSUBTITLE"
+      ]
     ],
-    "catalog": [
-      "date",
-      "editor",
-      "venue",
-      "institution",
-      "options",
-      "eventtitle",
-      "eventsubtitle",
-      "eventtitleaddon",
-      "eventdate",
-      "url",
-      "urldate",
-      "note",
-      "year",
-      "volume",
-      "volumes",
-      "sortkey"
+    [
+      "CATALOG",
+      [
+        "DATE",
+        "EDITOR",
+        "VENUE",
+        "INSTITUTION",
+        "OPTIONS",
+        "EVENTTITLE",
+        "EVENTSUBTITLE",
+        "EVENTTITLEADDON",
+        "EVENTDATE",
+        "URL",
+        "URLDATE",
+        "NOTE",
+        "YEAR",
+        "VOLUME",
+        "VOLUMES",
+        "SORTKEY"
+      ]
     ],
-    "incatalog": [
-      "author",
-      "title",
-      "subtitle",
-      "titleaddon",
-      "pages",
-      "url",
-      "urldate",
-      "year",
-      "note",
-      "volume",
-      "volumes",
-      "crossref",
-      "eventsubtitle",
-      "sortkey"
+    [
+      "INCATALOG",
+      [
+        "AUTHOR",
+        "TITLE",
+        "SUBTITLE",
+        "TITLEADDON",
+        "PAGES",
+        "URL",
+        "URLDATE",
+        "YEAR",
+        "NOTE",
+        "VOLUME",
+        "VOLUMES",
+        "CROSSREF",
+        "EVENTSUBTITLE",
+        "SORTKEY"
+      ]
     ],
-    "book": [
-      "thesisdate",
-      "thesistype"
+    [
+      "BOOK",
+      [
+        "THESISDATE",
+        "THESISTYPE"
+      ]
     ]
-  },
+  ],
   "universalFields": [
-    "urn",
-    "jstor",
-    "arthist",
-    "arthistdate"
+    "URN",
+    "JSTOR",
+    "ARTHIST",
+    "ARTHISTDATE"
   ],
   "entryConstraints": [],
   "universalConstraints": [],

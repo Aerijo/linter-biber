@@ -4,9 +4,9 @@
   "fields": [
     {
       "names": [
-        "maineditor",
-        "ineditor",
-        "bookineditor"
+        "MAINEDITOR",
+        "INEDITOR",
+        "BOOKINEDITOR"
       ],
       "properties": {
         "type": "list",
@@ -18,35 +18,62 @@
       }
     }
   ],
-  "entryFields": {
-    "collection": [
-      "maineditor"
+  "entryFields": [
+    [
+      "COLLECTION",
+      [
+        "MAINEDITOR"
+      ]
     ],
-    "incollection": [
-      "maineditor"
+    [
+      "INCOLLECTION",
+      [
+        "MAINEDITOR"
+      ]
     ],
-    "proceedings": [
-      "maineditor"
+    [
+      "PROCEEDINGS",
+      [
+        "MAINEDITOR"
+      ]
     ],
-    "inproceedings": [
-      "maineditor"
+    [
+      "INPROCEEDINGS",
+      [
+        "MAINEDITOR"
+      ]
     ],
-    "reference": [
-      "maineditor"
+    [
+      "REFERENCE",
+      [
+        "MAINEDITOR"
+      ]
     ],
-    "inreference": [
-      "maineditor"
+    [
+      "INREFERENCE",
+      [
+        "MAINEDITOR"
+      ]
     ],
-    "inbook": [
-      "ineditor"
+    [
+      "INBOOK",
+      [
+        "INEDITOR"
+      ]
     ],
-    "article": [
-      "ineditor"
+    [
+      "ARTICLE",
+      [
+        "INEDITOR"
+      ]
     ],
-    "bookinbook": [
-      "bookineditor"
+    [
+      "BOOKINBOOK",
+      [
+        "BOOKINEDITOR"
+      ]
     ]
-  },
+  ],
   "universalFields": [],
   "entryConstraints": [],
   "universalConstraints": [],

@@ -4,7 +4,7 @@
   "fields": [
     {
       "names": [
-        "numpages"
+        "NUMPAGES"
       ],
       "properties": {
         "type": "field",
@@ -17,7 +17,7 @@
     },
     {
       "names": [
-        "articleno"
+        "ARTICLENO"
       ],
       "properties": {
         "type": "field",
@@ -30,7 +30,7 @@
     },
     {
       "names": [
-        "urls"
+        "URLS"
       ],
       "properties": {
         "type": "list",
@@ -43,7 +43,7 @@
     },
     {
       "names": [
-        "school"
+        "SCHOOL"
       ],
       "properties": {
         "type": "list",
@@ -56,7 +56,7 @@
     },
     {
       "names": [
-        "key"
+        "KEY"
       ],
       "properties": {
         "type": "field",
@@ -68,16 +68,19 @@
       }
     }
   ],
-  "entryFields": {
-    "thesis": [
-      "school"
+  "entryFields": [
+    [
+      "THESIS",
+      [
+        "SCHOOL"
+      ]
     ]
-  },
+  ],
   "universalFields": [
-    "numpages",
-    "articleno",
-    "urls",
-    "key"
+    "NUMPAGES",
+    "ARTICLENO",
+    "URLS",
+    "KEY"
   ],
   "entryConstraints": [],
   "universalConstraints": [],

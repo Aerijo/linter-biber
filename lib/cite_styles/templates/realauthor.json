@@ -4,8 +4,8 @@
   "fields": [
     {
       "names": [
-        "realauthor",
-        "realeditor"
+        "REALAUTHOR",
+        "REALEDITOR"
       ],
       "properties": {
         "type": "list",
@@ -17,10 +17,10 @@
       }
     }
   ],
-  "entryFields": {},
+  "entryFields": [],
   "universalFields": [
-    "realauthor",
-    "realeditor"
+    "REALAUTHOR",
+    "REALEDITOR"
   ],
   "entryConstraints": [],
   "universalConstraints": [],

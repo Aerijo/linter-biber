@@ -3,9 +3,9 @@
   "entries": [
     {
       "names": [
-        "letters",
-        "data",
-        "newsarticle"
+        "LETTERS",
+        "DATA",
+        "NEWSARTICLE"
       ],
       "properties": {
         "skipout": false
@@ -15,11 +15,11 @@
   "fields": [
     {
       "names": [
-        "with",
-        "writer",
-        "producer",
-        "execproducer",
-        "director"
+        "WITH",
+        "WRITER",
+        "PRODUCER",
+        "EXECPRODUCER",
+        "DIRECTOR"
       ],
       "properties": {
         "type": "list",
@@ -32,10 +32,10 @@
     },
     {
       "names": [
-        "abstractloc",
-        "titleisdescription",
-        "newspaper",
-        "urldescription"
+        "ABSTRACTLOC",
+        "TITLEISDESCRIPTION",
+        "NEWSPAPER",
+        "URLDESCRIPTION"
       ],
       "properties": {
         "type": "field",
@@ -48,7 +48,7 @@
     },
     {
       "names": [
-        "abstracturl"
+        "ABSTRACTURL"
       ],
       "properties": {
         "type": "field",
@@ -60,92 +60,101 @@
       }
     }
   ],
-  "entryFields": {
-    "video": [
-      "writer",
-      "producer",
-      "execproducer",
-      "director"
+  "entryFields": [
+    [
+      "VIDEO",
+      [
+        "WRITER",
+        "PRODUCER",
+        "EXECPRODUCER",
+        "DIRECTOR"
+      ]
     ],
-    "newsarticle": [
-      "author",
-      "newspaper",
-      "title",
-      "day",
-      "endday",
-      "endmonth",
-      "endyear",
-      "month",
-      "year",
-      "addendum",
-      "doi",
-      "editor",
-      "editora",
-      "editorb",
-      "editorc",
-      "editoratype",
-      "editorbtype",
-      "editorctype",
-      "eid",
-      "eprint",
-      "eprintclass",
-      "eprinttype",
-      "issn",
-      "issue",
-      "issuetitle",
-      "issuesubtitle",
-      "language",
-      "note",
-      "number",
-      "origlanguage",
-      "pages",
-      "series",
-      "subtitle",
-      "titleaddon",
-      "translator",
-      "url",
-      "urlday",
-      "urlendday",
-      "urlendmonth",
-      "urlendyear",
-      "urlmonth",
-      "urlyear",
-      "volume"
+    [
+      "NEWSARTICLE",
+      [
+        "AUTHOR",
+        "NEWSPAPER",
+        "TITLE",
+        "DAY",
+        "ENDDAY",
+        "ENDMONTH",
+        "ENDYEAR",
+        "MONTH",
+        "YEAR",
+        "ADDENDUM",
+        "DOI",
+        "EDITOR",
+        "EDITORA",
+        "EDITORB",
+        "EDITORC",
+        "EDITORATYPE",
+        "EDITORBTYPE",
+        "EDITORCTYPE",
+        "EID",
+        "EPRINT",
+        "EPRINTCLASS",
+        "EPRINTTYPE",
+        "ISSN",
+        "ISSUE",
+        "ISSUETITLE",
+        "ISSUESUBTITLE",
+        "LANGUAGE",
+        "NOTE",
+        "NUMBER",
+        "ORIGLANGUAGE",
+        "PAGES",
+        "SERIES",
+        "SUBTITLE",
+        "TITLEADDON",
+        "TRANSLATOR",
+        "URL",
+        "URLDAY",
+        "URLENDDAY",
+        "URLENDMONTH",
+        "URLENDYEAR",
+        "URLMONTH",
+        "URLYEAR",
+        "VOLUME"
+      ]
     ],
-    "data": [
-      "title",
-      "day",
-      "endday",
-      "endmonth",
-      "endyear",
-      "month",
-      "year",
-      "addendum",
-      "author",
-      "language",
-      "location",
-      "note",
-      "organization",
-      "pubstate",
-      "subtitle",
-      "titleaddon",
-      "type",
-      "url",
-      "urlday",
-      "urlendday",
-      "urlendmonth",
-      "urlendyear",
-      "urlmonth",
-      "urlyear",
-      "version"
+    [
+      "DATA",
+      [
+        "TITLE",
+        "DAY",
+        "ENDDAY",
+        "ENDMONTH",
+        "ENDYEAR",
+        "MONTH",
+        "YEAR",
+        "ADDENDUM",
+        "AUTHOR",
+        "LANGUAGE",
+        "LOCATION",
+        "NOTE",
+        "ORGANIZATION",
+        "PUBSTATE",
+        "SUBTITLE",
+        "TITLEADDON",
+        "TYPE",
+        "URL",
+        "URLDAY",
+        "URLENDDAY",
+        "URLENDMONTH",
+        "URLENDYEAR",
+        "URLMONTH",
+        "URLYEAR",
+        "VERSION"
+      ]
     ]
-  },
+  ],
   "universalFields": [
-    "titleisdescription",
-    "with",
-    "abstractloc",
-    "abstracturl",
-    "urldescription"
+    "TITLEISDESCRIPTION",
+    "WITH",
+    "ABSTRACTLOC",
+    "ABSTRACTURL",
+    "URLDESCRIPTION"
   ],
   "entryConstraints": [],
   "universalConstraints": [],

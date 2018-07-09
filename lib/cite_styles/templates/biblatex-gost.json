@@ -4,11 +4,11 @@
   "fields": [
     {
       "names": [
-        "number",
-        "book",
-        "part",
-        "volume",
-        "issue"
+        "NUMBER",
+        "BOOK",
+        "PART",
+        "VOLUME",
+        "ISSUE"
       ],
       "properties": {
         "type": "field",
@@ -21,22 +21,22 @@
     },
     {
       "names": [
-        "books",
-        "parts",
-        "issues",
-        "volsorder",
-        "sortvolume",
-        "systemreq",
-        "publication",
-        "ipc",
-        "requestnumber",
-        "prioritynumber",
-        "prioritycountry",
-        "authorcountry",
-        "science",
-        "specialitycode",
-        "speciality",
-        "heading"
+        "BOOKS",
+        "PARTS",
+        "ISSUES",
+        "VOLSORDER",
+        "SORTVOLUME",
+        "SYSTEMREQ",
+        "PUBLICATION",
+        "IPC",
+        "REQUESTNUMBER",
+        "PRIORITYNUMBER",
+        "PRIORITYCOUNTRY",
+        "AUTHORCOUNTRY",
+        "SCIENCE",
+        "SPECIALITYCODE",
+        "SPECIALITY",
+        "HEADING"
       ],
       "properties": {
         "type": "field",
@@ -49,9 +49,9 @@
     },
     {
       "names": [
-        "update",
-        "prioritydate",
-        "publicationdate"
+        "UPDATE",
+        "PRIORITYDATE",
+        "PUBLICATIONDATE"
       ],
       "properties": {
         "type": "field",
@@ -64,12 +64,12 @@
     },
     {
       "names": [
-        "booktranslator",
-        "bookcommentator",
-        "bookannotator",
-        "bookintroduction",
-        "bookforeword",
-        "bookafterword"
+        "BOOKTRANSLATOR",
+        "BOOKCOMMENTATOR",
+        "BOOKANNOTATOR",
+        "BOOKINTRODUCTION",
+        "BOOKFOREWORD",
+        "BOOKAFTERWORD"
       ],
       "properties": {
         "type": "list",
@@ -82,7 +82,7 @@
     },
     {
       "names": [
-        "media"
+        "MEDIA"
       ],
       "properties": {
         "type": "field",
@@ -95,7 +95,7 @@
     },
     {
       "names": [
-        "bookoriglanguage"
+        "BOOKORIGLANGUAGE"
       ],
       "properties": {
         "type": "list",
@@ -108,7 +108,7 @@
     },
     {
       "names": [
-        "bookoriglanguage"
+        "BOOKORIGLANGUAGE"
       ],
       "properties": {
         "type": "field",
@@ -121,10 +121,10 @@
     },
     {
       "names": [
-        "specdata",
-        "credits",
-        "bookcredits",
-        "editioncredits"
+        "SPECDATA",
+        "CREDITS",
+        "BOOKCREDITS",
+        "EDITIONCREDITS"
       ],
       "properties": {
         "type": "list",
@@ -136,146 +136,194 @@
       }
     }
   ],
-  "entryFields": {
-    "article": [
-      "journalcredits",
-      "location",
-      "publisher"
+  "entryFields": [
+    [
+      "ARTICLE",
+      [
+        "JOURNALCREDITS",
+        "LOCATION",
+        "PUBLISHER"
+      ]
     ],
-    "periodical": [
-      "journalcredits",
-      "location",
-      "publisher"
+    [
+      "PERIODICAL",
+      [
+        "JOURNALCREDITS",
+        "LOCATION",
+        "PUBLISHER"
+      ]
     ],
-    "book": [
-      "sortvolume"
+    [
+      "BOOK",
+      [
+        "SORTVOLUME"
+      ]
     ],
-    "collection": [
-      "sortvolume"
+    [
+      "COLLECTION",
+      [
+        "SORTVOLUME"
+      ]
     ],
-    "proceedings": [
-      "sortvolume"
+    [
+      "PROCEEDINGS",
+      [
+        "SORTVOLUME"
+      ]
     ],
-    "reference": [
-      "sortvolume"
+    [
+      "REFERENCE",
+      [
+        "SORTVOLUME"
+      ]
     ],
-    "inbook": [
-      "booktranslator",
-      "bookcommentator",
-      "bookannotator",
-      "bookintroduction",
-      "bookforeword",
-      "bookafterword",
-      "bookoriglanguage",
-      "bookcredits"
+    [
+      "INBOOK",
+      [
+        "BOOKTRANSLATOR",
+        "BOOKCOMMENTATOR",
+        "BOOKANNOTATOR",
+        "BOOKINTRODUCTION",
+        "BOOKFOREWORD",
+        "BOOKAFTERWORD",
+        "BOOKORIGLANGUAGE",
+        "BOOKCREDITS"
+      ]
     ],
-    "incollection": [
-      "booktranslator",
-      "bookcommentator",
-      "bookannotator",
-      "bookintroduction",
-      "bookforeword",
-      "bookafterword",
-      "bookoriglanguage",
-      "bookcredits"
+    [
+      "INCOLLECTION",
+      [
+        "BOOKTRANSLATOR",
+        "BOOKCOMMENTATOR",
+        "BOOKANNOTATOR",
+        "BOOKINTRODUCTION",
+        "BOOKFOREWORD",
+        "BOOKAFTERWORD",
+        "BOOKORIGLANGUAGE",
+        "BOOKCREDITS"
+      ]
     ],
-    "inproceedings": [
-      "booktranslator",
-      "bookcommentator",
-      "bookannotator",
-      "bookintroduction",
-      "bookforeword",
-      "bookafterword",
-      "bookoriglanguage",
-      "bookcredits"
+    [
+      "INPROCEEDINGS",
+      [
+        "BOOKTRANSLATOR",
+        "BOOKCOMMENTATOR",
+        "BOOKANNOTATOR",
+        "BOOKINTRODUCTION",
+        "BOOKFOREWORD",
+        "BOOKAFTERWORD",
+        "BOOKORIGLANGUAGE",
+        "BOOKCREDITS"
+      ]
     ],
-    "inreference": [
-      "booktranslator",
-      "bookcommentator",
-      "bookannotator",
-      "bookintroduction",
-      "bookforeword",
-      "bookafterword",
-      "bookoriglanguage",
-      "bookcredits"
+    [
+      "INREFERENCE",
+      [
+        "BOOKTRANSLATOR",
+        "BOOKCOMMENTATOR",
+        "BOOKANNOTATOR",
+        "BOOKINTRODUCTION",
+        "BOOKFOREWORD",
+        "BOOKAFTERWORD",
+        "BOOKORIGLANGUAGE",
+        "BOOKCREDITS"
+      ]
     ],
-    "bookinbook": [
-      "booktranslator",
-      "bookcommentator",
-      "bookannotator",
-      "bookintroduction",
-      "bookforeword",
-      "bookafterword",
-      "bookoriglanguage",
-      "bookcredits"
+    [
+      "BOOKINBOOK",
+      [
+        "BOOKTRANSLATOR",
+        "BOOKCOMMENTATOR",
+        "BOOKANNOTATOR",
+        "BOOKINTRODUCTION",
+        "BOOKFOREWORD",
+        "BOOKAFTERWORD",
+        "BOOKORIGLANGUAGE",
+        "BOOKCREDITS"
+      ]
     ],
-    "suppbook": [
-      "booktranslator",
-      "bookcommentator",
-      "bookannotator",
-      "bookintroduction",
-      "bookforeword",
-      "bookafterword",
-      "bookoriglanguage",
-      "bookcredits"
+    [
+      "SUPPBOOK",
+      [
+        "BOOKTRANSLATOR",
+        "BOOKCOMMENTATOR",
+        "BOOKANNOTATOR",
+        "BOOKINTRODUCTION",
+        "BOOKFOREWORD",
+        "BOOKAFTERWORD",
+        "BOOKORIGLANGUAGE",
+        "BOOKCREDITS"
+      ]
     ],
-    "suppcollection": [
-      "booktranslator",
-      "bookcommentator",
-      "bookannotator",
-      "bookintroduction",
-      "bookforeword",
-      "bookafterword",
-      "bookoriglanguage",
-      "bookcredits"
+    [
+      "SUPPCOLLECTION",
+      [
+        "BOOKTRANSLATOR",
+        "BOOKCOMMENTATOR",
+        "BOOKANNOTATOR",
+        "BOOKINTRODUCTION",
+        "BOOKFOREWORD",
+        "BOOKAFTERWORD",
+        "BOOKORIGLANGUAGE",
+        "BOOKCREDITS"
+      ]
     ],
-    "thesis": [
-      "science",
-      "specialitycode",
-      "speciality",
-      "number"
+    [
+      "THESIS",
+      [
+        "SCIENCE",
+        "SPECIALITYCODE",
+        "SPECIALITY",
+        "NUMBER"
+      ]
     ],
-    "online": [
-      "update",
-      "systemreq"
+    [
+      "ONLINE",
+      [
+        "UPDATE",
+        "SYSTEMREQ"
+      ]
     ],
-    "patent": [
-      "pagetotal",
-      "priorityday",
-      "prioritymonth",
-      "priorityyear",
-      "priorityendday",
-      "priorityendmonth",
-      "priorityendyear",
-      "publicationday",
-      "publicationmonth",
-      "publicationyear",
-      "publicationendday",
-      "publicationendmonth",
-      "publicationendyear",
-      "publication",
-      "requestnumber",
-      "ipc",
-      "prioritynumber",
-      "prioritycountry",
-      "authorcountry"
+    [
+      "PATENT",
+      [
+        "PAGETOTAL",
+        "PRIORITYDAY",
+        "PRIORITYMONTH",
+        "PRIORITYYEAR",
+        "PRIORITYENDDAY",
+        "PRIORITYENDMONTH",
+        "PRIORITYENDYEAR",
+        "PUBLICATIONDAY",
+        "PUBLICATIONMONTH",
+        "PUBLICATIONYEAR",
+        "PUBLICATIONENDDAY",
+        "PUBLICATIONENDMONTH",
+        "PUBLICATIONENDYEAR",
+        "PUBLICATION",
+        "REQUESTNUMBER",
+        "IPC",
+        "PRIORITYNUMBER",
+        "PRIORITYCOUNTRY",
+        "AUTHORCOUNTRY"
+      ]
     ]
-  },
+  ],
   "universalFields": [
-    "number",
-    "book",
-    "part",
-    "issue",
-    "books",
-    "parts",
-    "issues",
-    "language",
-    "media",
-    "credits",
-    "editioncredits",
-    "specdata",
-    "volsorder",
-    "heading"
+    "NUMBER",
+    "BOOK",
+    "PART",
+    "ISSUE",
+    "BOOKS",
+    "PARTS",
+    "ISSUES",
+    "LANGUAGE",
+    "MEDIA",
+    "CREDITS",
+    "EDITIONCREDITS",
+    "SPECDATA",
+    "VOLSORDER",
+    "HEADING"
   ],
   "entryConstraints": [],
   "universalConstraints": [
@@ -283,9 +331,9 @@
       "type": "data",
       "value": {
         "fields": [
-          "update",
-          "prioritydate",
-          "publicationdate"
+          "UPDATE",
+          "PRIORITYDATE",
+          "PUBLICATIONDATE"
         ],
         "properties": {
           "type": "data",

@@ -4,7 +4,7 @@
   "fields": [
     {
       "names": [
-        "interviewee"
+        "INTERVIEWEE"
       ],
       "properties": {
         "type": "list",
@@ -17,7 +17,7 @@
     },
     {
       "names": [
-        "reviewer"
+        "REVIEWER"
       ],
       "properties": {
         "type": "list",
@@ -30,7 +30,7 @@
     },
     {
       "names": [
-        "reviewerinstitution"
+        "REVIEWERINSTITUTION"
       ],
       "properties": {
         "type": "list",
@@ -43,7 +43,7 @@
     },
     {
       "names": [
-        "publicprice"
+        "PUBLICPRICE"
       ],
       "properties": {
         "type": "field",
@@ -56,7 +56,7 @@
     },
     {
       "names": [
-        "smfprice"
+        "SMFPRICE"
       ],
       "properties": {
         "type": "field",
@@ -69,7 +69,7 @@
     },
     {
       "names": [
-        "frenchabstract"
+        "FRENCHABSTRACT"
       ],
       "properties": {
         "type": "field",
@@ -82,7 +82,7 @@
     },
     {
       "names": [
-        "englishabstract"
+        "ENGLISHABSTRACT"
       ],
       "properties": {
         "type": "field",
@@ -95,7 +95,7 @@
     },
     {
       "names": [
-        "copublisher"
+        "COPUBLISHER"
       ],
       "properties": {
         "type": "list",
@@ -108,7 +108,7 @@
     },
     {
       "names": [
-        "thumbnail"
+        "THUMBNAIL"
       ],
       "properties": {
         "type": "field",
@@ -120,24 +120,33 @@
       }
     }
   ],
-  "entryFields": {
-    "interview": [
-      "interviewee",
-      "author"
+  "entryFields": [
+    [
+      "INTERVIEW",
+      [
+        "INTERVIEWEE",
+        "AUTHOR"
+      ]
     ],
-    "bookreview": [
-      "reviewer",
-      "reviewerinstitution"
+    [
+      "BOOKREVIEW",
+      [
+        "REVIEWER",
+        "REVIEWERINSTITUTION"
+      ]
     ],
-    "bookadvertisement": [
-      "publicprice",
-      "smfprice",
-      "frenchabstract",
-      "englishabstract",
-      "copublisher",
-      "thumbnail"
+    [
+      "BOOKADVERTISEMENT",
+      [
+        "PUBLICPRICE",
+        "SMFPRICE",
+        "FRENCHABSTRACT",
+        "ENGLISHABSTRACT",
+        "COPUBLISHER",
+        "THUMBNAIL"
+      ]
     ]
-  },
+  ],
   "universalFields": [],
   "entryConstraints": [],
   "universalConstraints": [],

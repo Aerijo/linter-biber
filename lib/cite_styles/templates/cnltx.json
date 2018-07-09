@@ -4,7 +4,7 @@
   "fields": [
     {
       "names": [
-        "maintainer"
+        "MAINTAINER"
       ],
       "properties": {
         "type": "list",
@@ -16,68 +16,77 @@
       }
     }
   ],
-  "entryFields": {
-    "package": [
-      "author",
-      "maintainer",
-      "info",
-      "title",
-      "day",
-      "month",
-      "year",
-      "addendum",
-      "language",
-      "note",
-      "subtitle",
-      "titleaddon",
-      "translator",
-      "url",
-      "urlday",
-      "urlmonth",
-      "urlyear",
-      "version"
+  "entryFields": [
+    [
+      "PACKAGE",
+      [
+        "AUTHOR",
+        "MAINTAINER",
+        "INFO",
+        "TITLE",
+        "DAY",
+        "MONTH",
+        "YEAR",
+        "ADDENDUM",
+        "LANGUAGE",
+        "NOTE",
+        "SUBTITLE",
+        "TITLEADDON",
+        "TRANSLATOR",
+        "URL",
+        "URLDAY",
+        "URLMONTH",
+        "URLYEAR",
+        "VERSION"
+      ]
     ],
-    "class": [
-      "author",
-      "maintainer",
-      "info",
-      "title",
-      "day",
-      "month",
-      "year",
-      "addendum",
-      "language",
-      "note",
-      "subtitle",
-      "titleaddon",
-      "translator",
-      "url",
-      "urlday",
-      "urlmonth",
-      "urlyear",
-      "version"
+    [
+      "CLASS",
+      [
+        "AUTHOR",
+        "MAINTAINER",
+        "INFO",
+        "TITLE",
+        "DAY",
+        "MONTH",
+        "YEAR",
+        "ADDENDUM",
+        "LANGUAGE",
+        "NOTE",
+        "SUBTITLE",
+        "TITLEADDON",
+        "TRANSLATOR",
+        "URL",
+        "URLDAY",
+        "URLMONTH",
+        "URLYEAR",
+        "VERSION"
+      ]
     ],
-    "bundle": [
-      "author",
-      "maintainer",
-      "info",
-      "title",
-      "day",
-      "month",
-      "year",
-      "addendum",
-      "language",
-      "note",
-      "subtitle",
-      "titleaddon",
-      "translator",
-      "url",
-      "urlday",
-      "urlmonth",
-      "urlyear",
-      "version"
+    [
+      "BUNDLE",
+      [
+        "AUTHOR",
+        "MAINTAINER",
+        "INFO",
+        "TITLE",
+        "DAY",
+        "MONTH",
+        "YEAR",
+        "ADDENDUM",
+        "LANGUAGE",
+        "NOTE",
+        "SUBTITLE",
+        "TITLEADDON",
+        "TRANSLATOR",
+        "URL",
+        "URLDAY",
+        "URLMONTH",
+        "URLYEAR",
+        "VERSION"
+      ]
     ]
-  },
+  ],
   "universalFields": [],
   "entryConstraints": [],
   "universalConstraints": [],
