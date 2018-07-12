@@ -15,7 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "tree-sitter": "latest",
-    "tree-sitter-biber": "latest"
+    "tree-sitter-biber": "latest",
+    "yamljs": "latest",
+    "season": "latest"
   },
   "devDependencies": {
     "eslint": "^5.0.1"
@@ -45,6 +47,104 @@
       "type": "integer",
       "default": 10000,
       "description": "Use this to customise roughly how many lines will be linted before giving up. Restart required to apply changes"
+    },
+    "configFile": {
+      "type": "object",
+      "properties": {
+        "configFileType": {
+          "title": "Config File Type (currently unused)",
+          "order": 10,
+          "type": "string",
+          "default": "other",
+          "enum": ["latexcfg", "other"]
+        },
+        "otherPath": {
+          "title": "Other Path (currently unused)",
+          "order": 11,
+          "type": "string",
+          "default": ""
+        },
+        "useGlobalConfig": {
+          "title": "Use Global Config",
+          "order": 1,
+          "type": "boolean",
+          "default": false
+        },
+        "globalConfigPath": {
+          "title": "Global Config Path",
+          "description": "Restart Atom to apply any changes",
+          "order": 2,
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "activeStyle": {
+      "description": "Restart Atom to apply any changes",
+      "type": "string",
+      "default": "default_datamodel",
+      "enum": [
+        "default_datamodel",
+        "ACM-Reference-Format",
+        "archaeologie",
+        "apa",
+        "aefkw",
+        "afwl",
+        "amit",
+        "archa",
+        "authoryear-archaeology",
+        "authoryear-comp-archaeology",
+        "authoryear-ibid-archaeology",
+        "authoryear-icomp-archaeology",
+        "dguf-alt",
+        "dguf-apa",
+        "dguf",
+        "eaz-alt",
+        "eaz",
+        "foe",
+        "jb-halle",
+        "jb-kreis-neuss",
+        "karl",
+        "maja",
+        "mpk",
+        "mpkoeaw",
+        "nnu",
+        "numeric-comp-archaeology",
+        "offa",
+        "rgk-inline",
+        "rgk-numeric",
+        "rgk-verbose",
+        "rgzm-inline",
+        "rgzm-numeric",
+        "rgzm-verbose",
+        "ufg-muenster-inline",
+        "ufg-muenster-numeric",
+        "ufg-muenster-verbose",
+        "verbose-archaeology",
+        "verbose-ibid-archaeology",
+        "verbose-trad2note-archaeology",
+        "volkskunde",
+        "zaak",
+        "zaes",
+        "arthistory-bonn",
+        "bookinother",
+        "fiwi",
+        "fiwi2",
+        "biblatex-gost",
+        "iso-authortitle",
+        "iso-authoryear",
+        "iso-numeric",
+        "manuscripts-shared",
+        "morenames",
+        "oxalph",
+        "oxnotes",
+        "oxnum",
+        "oxyear",
+        "realauthor",
+        "cnltx",
+        "gitlog",
+        "gzt"
+      ]
     }
   }
 }

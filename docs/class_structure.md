@@ -17,3 +17,22 @@ Finally, a `ProtoStyle` can be passed to a `Style` constructor to make the final
 ### StyleRegistry
 
 Just a container to keep track of styles and determine which ones to use, etc. It will (potentially in a future version) read in a meta data file that is created when the templates / styles are made, and use that to help decide which style an arbitrary `.bib` file is using.
+
+### StyleConfig
+
+A way of storing changes the user wants to apply to the generated style. Supports JS, JSON, CSON, or YAML. The changes are applied top to bottom, as follows (note that removals occur before additions):
+
+  - global
+    - ignore (refers to lint id numbers)
+    - watch
+    - fields (universal fields)
+      - remove
+      - add
+    - constants
+      - remove
+      - add
+    - constraints
+      - remove
+  - style
+    - style name
+      - (same as above)
