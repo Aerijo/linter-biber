@@ -55,8 +55,8 @@
           "title": "Config File Type (currently unused)",
           "order": 10,
           "type": "string",
-          "default": "other",
-          "enum": ["latexcfg", "other"]
+          "default": "none",
+          "enum": ["latexcfg", "other", "none"]
         },
         "otherPath": {
           "title": "Other Path (currently unused)",
