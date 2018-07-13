@@ -115,7 +115,7 @@ The numbers are a mess right now, and will not be permanent. I normally just use
 With that said, here's a summary of the current lints and their numbers:
 
 - 000: An error thrown by the parser, that is not handled by rules in this linter. Note that the parser will attempt to continue parsing, so it should not be fatal.
-- 001: Top level junk. Junk behave like a comment, but is not marked with a `%`. Ignoring this is fine, and wil not affect your program (in all sane cases). This warning is largely here because biber throws a warning about junk in the log file (`\jobname.blg`)
+- 001: Top level junk. Junk behaves like a comment, but is not marked with a `%`. Ignoring this is fine, and wil not affect your program (in all sane cases). This warning is largely here because biber throws a warning about junk in the log file (`\jobname.blg`)
 - 002: The entry name cannot be found. I don't think this will ever throw, because the parser creates and empty node for the entry name regardless.
 - 004: Missing entry name. This is the one that will most likely throw.
 - 005: Unexpected entry name. Thrown when the entry name has not been declared in the list of valid entries for the style.
