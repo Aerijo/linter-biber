@@ -77,8 +77,12 @@ As shown above, the three recognised config keys are `lints`, `fields`, and `ent
 In general, the same option keys can be repeated as much as you like in a single command. This is how you might add multiple some conditionals in one command (though you could just split them over several commands if you prefer).
 
 The execution order is as follows:
+  - The global config is applied, then the local one, then the ignored lints in the settings.
+  - In a config file, the global property is applied first, then the style specific property.
   - First, the `fields` property is evaluated, then `entries`.
   - All commands are evaluated top to bottom. All options in each command are evaluated left to right.
+
+In conflicts, future commands will override earlier ones.
 
 As an example, here's one that allows the `article` entry to contain `publisher`, and converts the requirement of both `title` and `journaltitle` to just at least one of them.
 
@@ -102,3 +106,42 @@ And again, but in JSON
 ```
 
 Hopefully, future improvements in style definition parsing will reduce the need to rely on this. It should suffice for now though.
+
+
+### Numbering
+
+The numbers are a mess right now, and will not be permanent. I normally just used the first number I could think of that (probably) hadn't been used somewhere else. All numbers are less than 1000, and you don't need to include the leading `0`'s when adding rules about watching and ignoring.
+
+With that said, here's a summary of the current lints and their numbers:
+
+- 000: An error thrown by the parser, that is not handled by rules in this linter. Note that the parser will attempt to continue parsing, so it should not be fatal.
+- 001: Top level junk. Junk behave like a comment, but is not marked with a `%`. Ignoring this is fine, and wil not affect your program (in all sane cases). This warning is largely here because biber throws a warning about junk in the log file (`\jobname.blg`)
+- 002: The entry name cannot be found. I don't think this will ever throw, because the parser creates and empty node for the entry name regardless.
+- 004: Missing entry name. This is the one that will most likely throw.
+- 005: Unexpected entry name. Thrown when the entry name has not been declared in the list of valid entries for the style.
+- 006: Duplicate field. For when a given entry already has the field (done only by name, aliases are not supported for this)
+- 007: Unexpected field. When the entry has not been declared as supporting the field.
+- 011: Duplicate key. The key has been seen in an entry above, in the position `(line:column)`
+- 012: Empty key name. The key is empty, which throws an error when running biber
+- 013: Non-ASCII characters in key. While these characters may work if using XeTeX or similar, it may reduce compatibility with other engines. Relevant if you're using a shared bib file across multiple projects.
+- 014: \@COMMENT commands can break with BiBTeX. This is added because the original spec, BiBTeX, does not support explicit comments. The closest it gets is reading the name of `@comment`, and immediately going back into "looking for an entry" mode. If you have an `@` inside one of these, it could cause problems if running with `BiBTeX` (which is admittedly very unlikely).
+- 019: Unhandled error in entry field. Similar to 000, but hey--- at least it knows it's inside an entry.
+- 020: Missing closing delimiter. For when the parser has detected an error, and it's most likely because you forgot to close something.
+- 021: Unbalanced { | Unbalanced }. Note there's no way to escape characters, so use a command like `\textbackslash` or TeX sorcery if necessary.
+- 022: Unbalanced ). Parentheses can be used to deliminate a `@comment` command. Basically, they need to be balanced, and when the closing `)` is seen, any braces must also be balanced.
+- 034: Missing required fields. All of these have been indicated as required by the style config. Until better style rules parsing is implemented, you may want to use a config file to customise this. (Corresponds to `all` in config)
+- 035: Missing at least one field of. Similar to 034. (Corresponds to `some` in config)
+- 036: Missing one of. Similar to 034. (Corresponds to `one` in config)
+- 037: Too many of. Similar to 034. (Corresponds to `one` in config)
+- 038: Failed conditional. A prerequisite combination of fields was met, but the condition failed. Not currently possible to add / customise.
+- 042: Field name is missing. Maybe you added a comma or equals sign where you weren't supposed to?
+- 065: Invalid range format. The field has been marked as a range, and the value did not match expectations.
+- 067: Invalid date format. The field has been marked as a date, and the value is not what is expected. Would you believe this is the reason I wrote this entire linter?
+- 068: Invalid pattern match. The value was supposed to match the shown ([regex](https://www.marksanborn.net/howto/learning-regular-expressions-for-beginners-the-basics/)) pattern, but failed.
+- 071: Cannot find key. Unlikely to throw, as empty key is still "found" (see 012)
+- 082: Empty field value not allowed. The field has been marked as `nullok=false`, and the value has been detected as empty.
+- 098: Error when looking for node. The linter was looking for a node, but encountered a syntax error while it searched.
+- 099: Missing comma after key. This throws an error with biber, regardless of if there are no fields.
+- 997: Missing node. If the node is marked as an error by the parser, and it has 0 width.
+- 998: Error encountered. That's not supposed to be there...
+- 999: foo. When I forget to give a lint a number.
